@@ -4,11 +4,11 @@ from astroquery.xmatch import XMatch
 
 Vizier.ROW_LIMIT = -1
 
-# Retrieve GALACTICNUCLEUS central catalog in the 1 arcminute radius region around the Brick
+# Retrieve GALACTICNUCLEUS central catalog in a radius around the Brick
 GN_central_B = Vizier.query_region(SkyCoord(ra=266.544, dec=-28.7049, unit=(u.deg, u.deg), frame='icrs'), 
                                 radius=10*u.arcmin, catalog='J/A+A/631/A20/central')[0]
 
-# Retrieve GALACTICNUCLEUS nsdeast catalog in the 1 arcminute radius region around the Brick
+# Retrieve GALACTICNUCLEUS nsdeast catalog in a radius around the Brick
 GN_nsdeast_B = Vizier.query_region(SkyCoord(ra=266.544, dec=-28.7049, unit=(u.deg, u.deg), frame='icrs'), 
                                 radius=10*u.arcmin, catalog='J/A+A/631/A20/nsdeast')[0]
 
