@@ -3,6 +3,7 @@ import astropy.units as u
 from astropy.coordinates import SkyCoord
 from astropy.table import Table, vstack, setdiff
 from astroquery.xmatch import XMatch
+import sys
 
 Vizier.ROW_LIMIT = -1
 
@@ -42,3 +43,13 @@ sdiff_dropped = Table.from_pandas(sdiff_df_dropped)
 K_mask = sdiff_dropped['Ksmag3'] > 7.0
 sdiff_dropped_K = sdiff_dropped[K_mask]
 print("This many sources are appropriately bright in the Ks band:", len(sdiff_dropped_K))
+
+# J band cutoff:
+J_mask = sdiff_dropped_K['Jmag3'] > 9.76
+sdiff_dropped_K_J = sdiff_dropped_K[J_mask]
+print("This many sources are appropriately bright in the J band:", len(sdiff_dropped_K_J))
+
+# H band cutoff:
+H_mask = sdiff_dropped_K_J['Hmag3'] > 8.13
+sdiff_dropped_K_J_H = sdiff_dropped_K_J[H_mask]
+print("This many sources are appropriately bright in the H band:", len(sdiff_dropped_K_J_H))
