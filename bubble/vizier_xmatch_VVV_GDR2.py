@@ -53,3 +53,6 @@ print("This many sources are appropriately bright in the J band:", len(sdiff_dro
 H_mask = sdiff_dropped_K_J['Hmag3'] > 8.13
 sdiff_dropped_K_J_H = sdiff_dropped_K_J[H_mask]
 print("This many sources are appropriately bright in the H band:", len(sdiff_dropped_K_J_H))
+
+# Export the final catalog to a VO table file
+sdiff_dropped_K_J_H.write('OB_star_candidates.xml', table_id='OB_star_catalog', format='votable')
