@@ -1,3 +1,5 @@
+from astroquery.vizier import Vizier
+import astropy.units as u
 from astropy.coordinates import SkyCoord
 from astropy.table import Table, vstack
 from astroquery.xmatch import XMatch
