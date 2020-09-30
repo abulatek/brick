@@ -54,5 +54,15 @@ H_mask = sdiff_dropped_K_J['Hmag3'] > 8.13
 sdiff_dropped_K_J_H = sdiff_dropped_K_J[H_mask]
 print("This many sources are appropriately bright in the H band:", len(sdiff_dropped_K_J_H))
 
-# Export the final catalog to a VO table file
-sdiff_dropped_K_J_H.write('OB_star_candidates.xml', table_id='OB_star_catalog', format='votable')
+# Remove sources with *perrbits values that are nonzero for the J, H, and Ks filters
+# This is not the best way to do this, but I will fix it in the future when I have more time
+perrbits_mask_J = sdiff_dropped_K_J_H['Jperrbits'] == 0 
+sdiff_reliable_J = sdiff_dropped_K_J_H[perrbits_mask_J]
+perrbits_mask_H = sdiff_reliable_J['Hperrbits'] == 0
+sdiff_reliable_J_H = sdiff_reliable_J[perrbits_mask_H]
+perrbits_mask_Ks = sdiff_reliable_J_H['Ksperrbits'] == 0
+sdiff_reliable_J_H_K = sdiff_reliable_J_H[perrbits_mask_Ks]
+print("This many sources have *perrbits equal to 0:", len(sdiff_reliable_J_H_K))
+
+# Export the intermediate catalog to a VO table file
+sdiff_reliable_J_H_K.write('OB_star_candidates.xml', table_id='OB_star_catalog', format='votable')
