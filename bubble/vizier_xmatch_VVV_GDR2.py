@@ -8,7 +8,7 @@ import sys
 Vizier.ROW_LIMIT = -1
 
 # Retrieve VVV catalog in a radius around the Brick
-VVV_B = Vizier.query_region(SkyCoord(ra=266.544, dec=-28.7049, unit=(u.deg, u.deg), frame='icrs'), 
+VVV_B = Vizier.query_region(SkyCoord(l=0.2509749, b=0.01616672, unit=(u.deg, u.deg), frame='galactic'), 
                                 radius=1*u.arcmin, 
                                 catalog='II/348/vvv2')[0]
 
@@ -65,7 +65,7 @@ sdiff_reliable_J_H_K = sdiff_reliable_J_H[perrbits_mask_Ks]
 print("This many sources have *perrbits equal to 0:", len(sdiff_reliable_J_H_K))
 
 # Export the intermediate catalog to a VO table file
-#sdiff_reliable_J_H_K.write('OB_star_candidates.xml', table_id='OB_star_catalog', format='votable')
+#sdiff_reliable_J_H_K.write('OB_star_candidates_shift.xml', table_id='OB_star_catalog_shift', format='votable')
 
 # Pick out the 16 brightest stars in the Ks band
 sdiff_reliable_J_H_K.sort(['Ksmag3'])
@@ -73,4 +73,4 @@ catalog_subset = sdiff_reliable_J_H_K[:16] # First row is the header, I think
 print("This many sources are in the final subset catalog:", len(catalog_subset))
 
 # Export the subset catalog to a VO table file
-catalog_subset.write('OB_star_candidates_subset.xml', table_id='OB_star_catalog_subset', format='votable')
+#catalog_subset.write('OB_star_candidates_subset_shift.xml', table_id='OB_star_catalog_subset_shift', format='votable')

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 
 # Import the catalog from the VO table file
-catalog = Table.read('OB_star_candidates.xml')
+catalog = Table.read('OB_star_candidates_shift.xml')
 
 # Access the photometric values individually; they already have units of mag
 Jmag3 = catalog['Jmag3']

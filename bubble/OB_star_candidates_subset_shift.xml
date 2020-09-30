@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.1.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE ID="OB_star_catalog_subset_shift">
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000"/>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000"/>
+   <FIELD ID="iauname" arraysize="24" datatype="char" name="iauname"/>
+   <FIELD ID="mClass" datatype="short" name="mClass"/>
+   <FIELD ID="Zmag3" datatype="float" name="Zmag3"/>
+   <FIELD ID="e_Zmag3" datatype="double" name="e_Zmag3"/>
+   <FIELD ID="Zperrbits" datatype="int" name="Zperrbits"/>
+   <FIELD ID="Ymag3" datatype="double" name="Ymag3"/>
+   <FIELD ID="e_Ymag3" datatype="double" name="e_Ymag3"/>
+   <FIELD ID="Yperrbits" datatype="int" name="Yperrbits"/>
+   <FIELD ID="Jmag3" datatype="double" name="Jmag3"/>
+   <FIELD ID="e_Jmag3" datatype="double" name="e_Jmag3"/>
+   <FIELD ID="Jperrbits" datatype="int" name="Jperrbits"/>
+   <FIELD ID="Hmag3" datatype="double" name="Hmag3"/>
+   <FIELD ID="e_Hmag3" datatype="double" name="e_Hmag3"/>
+   <FIELD ID="Hperrbits" datatype="int" name="Hperrbits"/>
+   <FIELD ID="Ksmag3" datatype="double" name="Ksmag3"/>
+   <FIELD ID="e_Ksmag3" datatype="double" name="e_Ksmag3"/>
+   <FIELD ID="Ksperrbits" datatype="int" name="Ksperrbits"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>266.545353</TD>
+      <TD>-28.698476</TD>
+      <TD>VVV J174610.88-284154.51</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>16.009</TD>
+      <TD>0.021</TD>
+      <TD>0</TD>
+      <TD>12.898</TD>
+      <TD>0.005</TD>
+      <TD>0</TD>
+      <TD>11.204</TD>
+      <TD>0.003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.550053</TD>
+      <TD>-28.717793</TD>
+      <TD>VVV J174612.01-284304.05</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.116</TD>
+      <TD>0.057</TD>
+      <TD>0</TD>
+      <TD>13.19</TD>
+      <TD>0.007</TD>
+      <TD>0</TD>
+      <TD>11.3</TD>
+      <TD>0.003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.539229</TD>
+      <TD>-28.702665</TD>
+      <TD>VVV J174609.41-284209.59</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>16.287</TD>
+      <TD>0.027</TD>
+      <TD>0</TD>
+      <TD>13.15</TD>
+      <TD>0.007</TD>
+      <TD>0</TD>
+      <TD>11.521</TD>
+      <TD>0.004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.524499</TD>
+      <TD>-28.702625</TD>
+      <TD>VVV J174605.87-284209.45</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>15.962</TD>
+      <TD>0.02</TD>
+      <TD>0</TD>
+      <TD>13.234</TD>
+      <TD>0.007</TD>
+      <TD>0</TD>
+      <TD>11.737</TD>
+      <TD>0.005</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.543718</TD>
+      <TD>-28.720067</TD>
+      <TD>VVV J174610.49-284312.24</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.817</TD>
+      <TD>0.108</TD>
+      <TD>0</TD>
+      <TD>14.32</TD>
+      <TD>0.019</TD>
+      <TD>0</TD>
+      <TD>12.539</TD>
+      <TD>0.01</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.546307</TD>
+      <TD>-28.727454</TD>
+      <TD>VVV J174611.11-284338.83</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.95</TD>
+      <TD>0.121</TD>
+      <TD>0</TD>
+      <TD>14.554</TD>
+      <TD>0.023</TD>
+      <TD>0</TD>
+      <TD>12.826</TD>
+      <TD>0.014</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.547361</TD>
+      <TD>-28.700005</TD>
+      <TD>VVV J174611.36-284200.01</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.175</TD>
+      <TD>0.06</TD>
+      <TD>0</TD>
+      <TD>14.4</TD>
+      <TD>0.02</TD>
+      <TD>0</TD>
+      <TD>12.98</TD>
+      <TD>0.016</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.541928</TD>
+      <TD>-28.699366</TD>
+      <TD>VVV J174610.06-284157.71</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.548</TD>
+      <TD>0.085</TD>
+      <TD>0</TD>
+      <TD>14.619</TD>
+      <TD>0.025</TD>
+      <TD>0</TD>
+      <TD>13.117</TD>
+      <TD>0.018</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.537689</TD>
+      <TD>-28.707072</TD>
+      <TD>VVV J174609.04-284225.45</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.481</TD>
+      <TD>0.08</TD>
+      <TD>0</TD>
+      <TD>14.649</TD>
+      <TD>0.025</TD>
+      <TD>0</TD>
+      <TD>13.175</TD>
+      <TD>0.019</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.531172</TD>
+      <TD>-28.708389</TD>
+      <TD>VVV J174607.48-284230.20</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.971</TD>
+      <TD>0.125</TD>
+      <TD>0</TD>
+      <TD>14.851</TD>
+      <TD>0.03</TD>
+      <TD>0</TD>
+      <TD>13.272</TD>
+      <TD>0.02</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.534365</TD>
+      <TD>-28.713425</TD>
+      <TD>VVV J174608.24-284248.32</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>18.502</TD>
+      <TD>0.202</TD>
+      <TD>0</TD>
+      <TD>14.997</TD>
+      <TD>0.035</TD>
+      <TD>0</TD>
+      <TD>13.323</TD>
+      <TD>0.021</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.555455</TD>
+      <TD>-28.717623</TD>
+      <TD>VVV J174613.30-284303.44</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>19.252</TD>
+      <TD>0.401</TD>
+      <TD>0</TD>
+      <TD>15.235</TD>
+      <TD>0.043</TD>
+      <TD>0</TD>
+      <TD>13.376</TD>
+      <TD>0.022</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.527583</TD>
+      <TD>-28.717232</TD>
+      <TD>VVV J174606.61-284302.03</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.863</TD>
+      <TD>0.113</TD>
+      <TD>0</TD>
+      <TD>15.002</TD>
+      <TD>0.035</TD>
+      <TD>0</TD>
+      <TD>13.406</TD>
+      <TD>0.023</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.542916</TD>
+      <TD>-28.698785</TD>
+      <TD>VVV J174610.29-284155.62</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>18.107</TD>
+      <TD>0.14</TD>
+      <TD>0</TD>
+      <TD>15.058</TD>
+      <TD>0.037</TD>
+      <TD>0</TD>
+      <TD>13.433</TD>
+      <TD>0.023</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.541904</TD>
+      <TD>-28.711726</TD>
+      <TD>VVV J174610.05-284242.21</TD>
+      <TD>-1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>18.325</TD>
+      <TD>0.172</TD>
+      <TD>0</TD>
+      <TD>15.107</TD>
+      <TD>0.038</TD>
+      <TD>0</TD>
+      <TD>13.45</TD>
+      <TD>0.024</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>266.533449</TD>
+      <TD>-28.699767</TD>
+      <TD>VVV J174608.02-284159.15</TD>
+      <TD>1</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD/>
+      <TD/>
+      <TD>0</TD>
+      <TD>17.345</TD>
+      <TD>0.07</TD>
+      <TD>0</TD>
+      <TD>14.743</TD>
+      <TD>0.028</TD>
+      <TD>0</TD>
+      <TD>13.46</TD>
+      <TD>0.024</TD>
+      <TD>0</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

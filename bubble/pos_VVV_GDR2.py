@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import sys
 
 # Import the catalog from the VO table file
-catalog = Table.read('OB_star_candidates.xml')
+catalog = Table.read('OB_star_candidates_shift.xml')
 
 # Access the coordinates for the stars, already in decimal degrees
 RA = catalog['RAJ2000']
