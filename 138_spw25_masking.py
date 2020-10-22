@@ -15,7 +15,6 @@ print("Now outputting the mask file")
 ia.open('source_ab_138_spw25_dirty_512.image')
 cs = ia.coordsys()
 ia.close()
-
 ia.fromarray(outfile='source_ab_138_spw25_dirty_512.mask', pixels=boolmask.astype('float')[:,None,:,:].T, csys=cs.torecord(), overwrite=True)
 ia.close()
 
@@ -43,5 +42,6 @@ print("Now calculating the eroded/dilated mask")
 # Use the code below to output an eroded/dilated mask
 boolmask_e3_d4 = scipy.ndimage.binary_dilation(scipy.ndimage.binary_erosion(boolmask, iterations=3), iterations=4)
 print("Now outputting the eroded/dilated mask")
-ia.fromarray(outfile='source_ab_138_spw25_dirty_512_e3_d4.mask', pixels=boolmask_e3_d4[:,None,:,:].T, csys=cs.torecord(), overwrite=True)
+ia.open('source_ab_138_spw25_dirty_512.mask')
+ia.putmask(pixels=boolmask_e3_d4[:,None,:,:].T)
 ia.close()
