@@ -41,7 +41,8 @@ import scipy.ndimage
 print("Now calculating the eroded/dilated mask")
 # Use the code below to output an eroded/dilated mask
 boolmask_e3_d4 = scipy.ndimage.binary_dilation(scipy.ndimage.binary_erosion(boolmask, iterations=3), iterations=4)
-print("Now outputting the eroded/dilated mask")
+print("Now opening the original mask to be rewritten")
 ia.open('source_ab_138_spw25_dirty_512.mask')
+print("Now outputting the eroded/dilated mask")
 ia.putchunk(pixels=boolmask_e3_d4[:,None,:,:].T.astype('int'))
 ia.close()
