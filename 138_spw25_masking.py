@@ -44,7 +44,8 @@ boolmask_e3_d4 = scipy.ndimage.binary_dilation(scipy.ndimage.binary_erosion(bool
 print("Now opening the original mask to be rewritten")
 ia.open('source_ab_138_spw25_dirty_512.mask')
 print("Now defining the eroded/dilated mask to export")
-boolmask_e3_d4_export = boolmask_e3_d4[:,None,:,:].T.astype('int')
+boolmask_e3_d4_export = boolmask_e3_d4[:,None,:,:].T.astype('uint8') # used to be 'int'
 print("Now outputting the eroded/dilated mask")
 ia.putchunk(pixels=boolmask_e3_d4_export)
 ia.close()
+print("The script ran all the way through!!!")
