@@ -1,9 +1,0 @@
-2020-09-11 04:46:44	INFO	::casa	
-2020-09-11 04:46:44	INFO	::casa	Checking telemetry submission interval
-2020-09-11 04:46:44	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
-2020-09-11 04:46:44	INFO	::casa	Next telemetry data submission in: 6 days, 21:05:00.214389
-2020-09-11 04:46:44	INFO	::casa	CASA Version  5.7.0-134  
-2020-09-11 04:46:46	INFO	::casa	
-2020-09-11 04:47:09	INFO	tclean::utils::verify	Verifying arguments....File existence checking failed for vis calibrated_final.ms
-2020-09-11 04:47:09	WARN	tclean::utils::verify	Argument vis failed to verify.
-2020-09-11 04:47:09	SEVERE	tclean::::	An error occurred running task tclean.
