@@ -1,0 +1,137 @@
+Mon Oct  5 11:27:21 EDT 2020
+i21b-s3.ufhpc
+/blue/adamginsburg/abulatek/brick
+System xterm is avialable on all gui nodes.
+
+Searching for an available X11 port number
+ls: cannot access /tmp/.mount_CARTA.ARyzxm: Permission denied
+
+X11 port number '2746 has been selected
+Starting Xpra on port 2746 within SLURM job '59569925'
+
+Command: xpra start :2746 --encoding=auto --quality=80 --html=on --ws-auth=env --exit-with-children=yes --bind-ws=127.0.0.1:2746 --daemon=no --systemd-run=no --dbus-proxy=no --dbus-control=no  --dpi=96 --start-child="xterm"
+2020-10-05 11:27:23,924 Warning: failed to create script directory '/scratch/local/21249/xpra':
+2020-10-05 11:27:23,924  [Errno 2] No such file or directory: '/scratch/local/21249/xpra'
+2020-10-05 11:27:23,962 created ws socket '127.0.0.1:2746'
+2020-10-05 11:27:23,965 cannot access python uinput module:
+2020-10-05 11:27:23,965  No module named uinput
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System:  3.10.0-862.6.3.el7.x86_64 
+Current Operating System: Linux i21b-s3.ufhpc 3.10.0-1062.18.1.el7.x86_64 #1 SMP Wed Feb 12 14:08:31 UTC 2020 x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1062.18.1.el7.x86_64 root=UUID=ac3ee445-799b-4bea-8502-9811fb36d4f8 ro max_loop=32 crashkernel=auto console=ttyS0,115200n8 console=tty0 elevator=deadline pcie_aspm=off transparent_hugepage=never rd_NO_DM
+Build Date: 28 May 2019  07:13:18PM
+Build ID: xorg-x11-server 1.20.4-7.el7 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/home/abulatek/.xpra/Xorg.:2746.log", Time: Mon Oct  5 11:27:24 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-10-05 11:27:28,175 created unix domain socket '/home/abulatek/.xpra/i21b-s3.ufhpc-2746'
+2020-10-05 11:27:28,176 Warning: missing sound module
+2020-10-05 11:27:28,208 pointer device emulation using XTest
+2020-10-05 11:27:28,216 serving html content from '/usr/share/xpra/www'
+2020-10-05 11:27:28,816 OpenGL is supported on display ':2746'
+2020-10-05 11:27:28,816  using 'llvmpipe (LLVM 7.0, 256 bits)' renderer
+2020-10-05 11:27:28,915 D-Bus notification forwarding is available
+2020-10-05 11:27:28,936 xpra is ready.
+2020-10-05 11:27:28,963 xpra GTK2 X11 version 3.0.11-r27119 64-bit
+2020-10-05 11:27:29,014 started command 'xterm' with pid 5410
+xterm: cannot load font '-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1'
+2020-10-05 11:27:29,206 125.3GB of system memory
+2020-10-05 11:27:29,253  uid=21249 (abulatek), gid=3389 (adamginsburg)
+2020-10-05 11:27:29,253  running with pid 5338 on Linux RedHatEnterpriseServer 7.7 Maipo
+2020-10-05 11:27:29,254  connected to X11 display :2746 with 24 bit colors
+2020-10-05 11:30:46,063 Authentication required by env authenticator module 1
+2020-10-05 11:30:46,063  sending challenge for username 'abulatek' using hmac+sha512 digest
+2020-10-05 11:30:46,142 Handshake complete; enabling connection
+2020-10-05 11:30:46,161  automatic picture encoding enabled, also available:
+2020-10-05 11:30:46,161   jpeg, png, rgb32, webp
+2020-10-05 11:30:46,163 HTML5 Mac OSX Chrome client version 3.0.11
+2020-10-05 11:30:46,170 setting keyboard layout to 'en'
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Error:            Can't find file "en" for symbols include
+>                   Exiting
+>                   Abandoning symbols file "default"
+Errors from xkbcomp are not fatal to the X server
+2020-10-05 11:30:46,186 Error loading new keyboard description
+2020-10-05 11:30:46,192  client root window size is 1280x689 with 1 display:
+2020-10-05 11:30:46,192   HTML (339x182 mm - DPI: 95x96)
+2020-10-05 11:30:46,192     Canvas
+2020-10-05 11:30:46,232 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-10-05 11:30:46,267 DPI set to 96 x 96
+2020-10-05 11:30:46,388 client   1 received xdg start menu data
+2020-10-05 11:30:46,405 client   1 startup complete
+2020-10-05 11:30:46,413 client   1 connection-established
+2020-10-05 11:30:47,195 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:30:49,477 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:30:49,570 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:30:51,180 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:30:52,348 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:30:53,426 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:31:24,384 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:31:25,513 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:33:21,760 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:33:23,317 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:33:26,317 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:33:26,924 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:33:41,803 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:33:42,756 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:22,692 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:23,626 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:28,548 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:30,119 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:32,345 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:33,385 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:38,309 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:39,766 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:45,776 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:46,690 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:34:50,855 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:34:51,562 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:35:35,359 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:35:36,317 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:01,910 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:36:02,742 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:25,587 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:36:26,601 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:30,732 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:36:31,639 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:35,361 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:36:35,975 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:53,797 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:36:54,625 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:36:59,637 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:37:00,661 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:31,560 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:32,550 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:37,001 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:38,414 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:39,597 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:40,492 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:43,877 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:45,032 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:47,452 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:48,331 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:38:53,144 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:38:54,099 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:39:10,800 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:39:11,500 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:39:15,745 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:39:16,746 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:39:20,000 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:39:21,065 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:39:37,136 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:39:37,997 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:40:00,318 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:40:01,213 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:40:37,071 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:40:38,502 client   1 visibilitychange hidden= true connected= true
+2020-10-05 11:40:39,403 client   1 visibilitychange hidden= false connected= true
+2020-10-05 11:40:41,311 xpra client 1 disconnected.
+slurmstepd: error: *** JOB 59569925 ON i21b-s3 CANCELLED AT 2020-10-08T20:56:32 ***

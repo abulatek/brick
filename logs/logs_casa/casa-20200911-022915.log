@@ -1,0 +1,190 @@
+2020-09-11 02:29:17	INFO	::casa	
+2020-09-11 02:29:17	INFO	::casa	Checking telemetry submission interval
+2020-09-11 02:29:17	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2020-09-11 02:29:17	INFO	::casa	Next telemetry data submission in: 6 days, 23:22:27.170939
+2020-09-11 02:29:17	INFO	::casa	CASA Version  5.7.0-134  
+2020-09-11 02:29:19	INFO	::casa	
+2020-09-11 02:31:51	INFO	plotms::::	
+2020-09-11 02:31:51	INFO	plotms::::+	##########################################
+2020-09-11 02:31:51	INFO	plotms::::+	##### Begin Task: plotms             #####
+2020-09-11 02:31:51	INFO	plotms::::	plotms(vis="/orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a31/group.uid___A001_X1465_X3a32/member.uid___A001_X1465_X3a33/calibrated/calibrated_final.ms",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+2020-09-11 02:31:51	INFO	plotms::::+	        plotindex=0,xaxis="",xdatacolumn="",xframe="",xinterp="",
+2020-09-11 02:31:51	INFO	plotms::::+	        yaxis=('', []),ydatacolumn="",yframe="",yinterp="",yaxislocation="",
+2020-09-11 02:31:51	INFO	plotms::::+	        selectdata=True,field="",spw="",timerange="",uvrange="",
+2020-09-11 02:31:51	INFO	plotms::::+	        antenna="",scan="",correlation="",array="",observation="",
+2020-09-11 02:31:51	INFO	plotms::::+	        intent="",feed="",msselect="",averagedata=True,avgchannel="",
+2020-09-11 02:31:51	INFO	plotms::::+	        avgtime="",avgscan=False,avgfield=False,avgbaseline=False,avgantenna=False,
+2020-09-11 02:31:51	INFO	plotms::::+	        avgspw=False,scalar=False,transform=True,freqframe="",restfreq="",
+2020-09-11 02:31:51	INFO	plotms::::+	        veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,extchannel=False,
+2020-09-11 02:31:51	INFO	plotms::::+	        iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,ysharedaxis=False,
+2020-09-11 02:31:51	INFO	plotms::::+	        customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",symbolfill="fill",
+2020-09-11 02:31:51	INFO	plotms::::+	        symboloutline=False,coloraxis="",customflaggedsymbol=False,flaggedsymbolshape="circle",flaggedsymbolsize=2,
+2020-09-11 02:31:51	INFO	plotms::::+	        flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,xconnector="",timeconnector=False,
+2020-09-11 02:31:51	INFO	plotms::::+	        plotrange=[],title="",titlefont=0,xlabel="",xaxisfont=0,
+2020-09-11 02:31:51	INFO	plotms::::+	        ylabel="",yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",
+2020-09-11 02:31:51	INFO	plotms::::+	        majorcolor="B0B0B0",showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",
+2020-09-11 02:31:51	INFO	plotms::::+	        showlegend=False,legendposition="",plotfile="",expformat="",verbose=True,
+2020-09-11 02:31:51	INFO	plotms::::+	        exprange="",highres=False,dpi=-1,width=-1,height=-1,
+2020-09-11 02:31:51	INFO	plotms::::+	        overwrite=False,showgui=True,clearplots=True,callib=[''],headeritems="",
+2020-09-11 02:31:51	INFO	plotms::::+	        showatm=False,showtsky=False,showimage=False)
+2020-09-11 02:31:54	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:31:54	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:31:54	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	START     Current memory usage: 5851.3 kilobytes.
+2020-09-11 02:31:54	INFO	plotms::::	##### End Task: plotms               #####
+2020-09-11 02:31:54	INFO	plotms::::+	##########################################
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	Plotting table calibrated_final.ms
+2020-09-11 02:31:54	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2020-09-11 02:31:56	INFO	PlotMS::load_cache	Loading page header cache
+2020-09-11 02:32:03	INFO	PlotMS::load_cache	Data selection will yield a total of 10897920000 plottable points (flagged and unflagged).
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 65.4737 GB of memory (6.00791 bytes/point).
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	This is 2081.35% of the memory avail. to CASA (3.14573 GB).
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	Too many points!  CASA plotms cannot plot more than 4294967295 points.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	Insufficient memory!
+2020-09-11 02:32:03	INFO	PlotMS::load_cache	Estimated cache exceeds limits.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	Please try using data selection, averaging,
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	checking 'Reload' (to clear unneeded cache items),or letting other memory-intensive processes finish.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache	WARNING: Error during cache loading: Estimated cache exceeds limits.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	Please try using data selection, averaging,
+2020-09-11 02:32:03	INFO	PlotMS::load_cache+	checking 'Reload' (to clear unneeded cache items),or letting other memory-intensive processes finish.
+2020-09-11 02:32:03	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:33:12	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2020-09-11 02:33:12	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:33:12	INFO	PlotMS::load_cache	START     Current memory usage: 8078.98 kilobytes.
+2020-09-11 02:33:12	INFO	PlotMS::load_cache	Plotting table calibrated_final.ms
+2020-09-11 02:33:12	INFO	PlotMS::load_cache	  Selection: field: 2
+2020-09-11 02:33:12	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2020-09-11 02:33:13	INFO	PlotMS::load_cache	Loading page header cache
+2020-09-11 02:33:19	INFO	PlotMS::load_cache	Data selection will yield a total of 10897920000 plottable points (flagged and unflagged).
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 65.4737 GB of memory (6.00791 bytes/point).
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	This is 2081.35% of the memory avail. to CASA (3.14573 GB).
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	Too many points!  CASA plotms cannot plot more than 4294967295 points.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	Insufficient memory!
+2020-09-11 02:33:19	INFO	PlotMS::load_cache	Estimated cache exceeds limits.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	Please try using data selection, averaging,
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	checking 'Reload' (to clear unneeded cache items),or letting other memory-intensive processes finish.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache	WARNING: Error during cache loading: Estimated cache exceeds limits.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	Please try using data selection, averaging,
+2020-09-11 02:33:19	INFO	PlotMS::load_cache+	checking 'Reload' (to clear unneeded cache items),or letting other memory-intensive processes finish.
+2020-09-11 02:33:19	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:35:14	INFO	plotms::::	
+2020-09-11 02:35:14	INFO	plotms::::+	##########################################
+2020-09-11 02:35:14	INFO	plotms::::+	##### Begin Task: plotms             #####
+2020-09-11 02:35:14	INFO	plotms::::	plotms(vis="/orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a31/group.uid___A001_X1465_X3a32/member.uid___A001_X1465_X3a33/calibrated/calibrated_final.ms",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+2020-09-11 02:35:14	INFO	plotms::::+	        plotindex=0,xaxis="u",xdatacolumn="",xframe="",xinterp="",
+2020-09-11 02:35:14	INFO	plotms::::+	        yaxis="v",ydatacolumn="",yframe="",yinterp="",yaxislocation="",
+2020-09-11 02:35:14	INFO	plotms::::+	        selectdata=True,field="",spw="",timerange="",uvrange="",
+2020-09-11 02:35:14	INFO	plotms::::+	        antenna="",scan="",correlation="",array="",observation="",
+2020-09-11 02:35:14	INFO	plotms::::+	        intent="",feed="",msselect="",averagedata=True,avgchannel="10000",
+2020-09-11 02:35:14	INFO	plotms::::+	        avgtime="1e9",avgscan=False,avgfield=False,avgbaseline=False,avgantenna=False,
+2020-09-11 02:35:14	INFO	plotms::::+	        avgspw=False,scalar=False,transform=True,freqframe="",restfreq="",
+2020-09-11 02:35:14	INFO	plotms::::+	        veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,extchannel=False,
+2020-09-11 02:35:14	INFO	plotms::::+	        iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,ysharedaxis=False,
+2020-09-11 02:35:14	INFO	plotms::::+	        customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",symbolfill="fill",
+2020-09-11 02:35:14	INFO	plotms::::+	        symboloutline=False,coloraxis="field",customflaggedsymbol=False,flaggedsymbolshape="circle",flaggedsymbolsize=2,
+2020-09-11 02:35:14	INFO	plotms::::+	        flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,xconnector="",timeconnector=False,
+2020-09-11 02:35:14	INFO	plotms::::+	        plotrange=[],title="",titlefont=0,xlabel="",xaxisfont=0,
+2020-09-11 02:35:14	INFO	plotms::::+	        ylabel="",yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",
+2020-09-11 02:35:14	INFO	plotms::::+	        majorcolor="B0B0B0",showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",
+2020-09-11 02:35:14	INFO	plotms::::+	        showlegend=False,legendposition="",plotfile="",expformat="",verbose=True,
+2020-09-11 02:35:14	INFO	plotms::::+	        exprange="",highres=False,dpi=-1,width=-1,height=-1,
+2020-09-11 02:35:14	INFO	plotms::::+	        overwrite=False,showgui=True,clearplots=True,callib=[''],headeritems="",
+2020-09-11 02:35:14	INFO	plotms::::+	        showatm=False,showtsky=False,showimage=False)
+2020-09-11 02:35:14	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	START     Current memory usage: 7937.2 kilobytes.
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	Plotting table calibrated_final.ms
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	Data Averaging: 
+2020-09-11 02:35:14	INFO	PlotMS::load_cache+	 Using VECTOR averaging.
+2020-09-11 02:35:14	INFO	PlotMS::load_cache+	 Channel: 10000 channels
+2020-09-11 02:35:14	INFO	PlotMS::load_cache+	 Time: 1e+09 seconds.  Scan: false;  Field: false
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	Caching for the new plot: V(31) vs. U(30)...
+2020-09-11 02:35:14	INFO	plotms::::	##### End Task: plotms               #####
+2020-09-11 02:35:14	INFO	plotms::::+	##########################################
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	Loading page header cache
+2020-09-11 02:35:20	INFO	PlotMS::load_cache	Data selection will yield a total of 37840 plottable points (flagged and unflagged).
+2020-09-11 02:35:20	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0006064 GB of memory (16.0254 bytes/point).
+2020-09-11 02:35:20	INFO	PlotMS::load_cache+	This is 0.0192769% of the memory avail. to CASA (3.14573 GB).
+2020-09-11 02:35:20	INFO	PlotMS::load_cache	Loading chunks......
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 25: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 27: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 29: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 31: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 45: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 47: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 49: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 51: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 65: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 67: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 69: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 71: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 85: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 87: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 89: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 91: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 105: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 107: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 109: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	SPW 111: number of channels averaged = 3840
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	Generating the plot mask.
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	refTime = 2019/11/09/00:00:00.0
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	Finished loading.
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	Axes ranges:
+2020-09-11 02:38:05	INFO	PlotMS::load_cache+	U: -382.857 to 403.639 (unflagged); ; 0 to 0 (flagged).
+2020-09-11 02:38:05	INFO	PlotMS::load_cache+	V: -464.154 to 398.94 (unflagged); 0 to 0(flagged).
+2020-09-11 02:38:05	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2020-09-11 02:38:05	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2020-09-11 02:38:05	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2020-09-11 02:38:05	INFO	PlotMS::load_cache	Finished indexing.
+2020-09-11 02:35:14	INFO	PlotMS::load_cache	END       Time: +172 seconds.  Memory: +4657.11 kilobytes.
+2020-09-11 02:38:05	INFO	PlotMS::plot	Plotting 18060 unflagged points.
+2020-09-11 02:43:02	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	START     Current memory usage: 11207.9 kilobytes.
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	Plotting table calibrated_final.ms
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	Data Averaging: 
+2020-09-11 02:43:02	INFO	PlotMS::load_cache+	 Using VECTOR averaging.
+2020-09-11 02:43:02	INFO	PlotMS::load_cache+	 Channel: 10000 channels
+2020-09-11 02:43:02	INFO	PlotMS::load_cache+	 Time: 1e+09 seconds.  Scan: false;  Field: false
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	Caching for the new plot: V(31) vs. UVwave(29)...
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	Loading page header cache
+2020-09-11 02:43:08	INFO	PlotMS::load_cache	Data selection will yield a total of 37840 plottable points (flagged and unflagged).
+2020-09-11 02:43:08	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0006064 GB of memory (16.0254 bytes/point).
+2020-09-11 02:43:08	INFO	PlotMS::load_cache+	This is 0.0192769% of the memory avail. to CASA (3.14573 GB).
+2020-09-11 02:43:08	INFO	PlotMS::load_cache	Loading chunks......
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 25: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 27: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 29: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 31: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 45: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 47: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 49: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 51: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 65: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 67: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 69: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 71: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 85: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 87: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 89: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 91: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 105: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 107: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 109: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	SPW 111: number of channels averaged = 3840
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	Generating the plot mask.
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	refTime = 2019/11/09/00:00:00.0
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	Finished loading.
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	Axes ranges:
+2020-09-11 02:45:57	INFO	PlotMS::load_cache+	UVwave: 6254.95 to 244178 (unflagged); ; 0 to 0 (flagged).
+2020-09-11 02:45:57	INFO	PlotMS::load_cache+	V: -464.154 to 398.94 (unflagged); 0 to 0(flagged).
+2020-09-11 02:45:57	INFO	PlotMS::load_cache	Finished indexing.
+2020-09-11 02:43:02	INFO	PlotMS::load_cache	END       Time: +174 seconds.  Memory: +1100.31 kilobytes.
+2020-09-11 02:45:57	INFO	PlotMS::plot	Plotting 18060 unflagged points.
