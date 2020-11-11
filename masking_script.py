@@ -1,11 +1,22 @@
 ## Pylab requires this to have a visual component, so if using pylab, this should be ran from an xpra GUI session
 from spectral_cube import SpectralCube
 from astropy import units as u
+import os
+
+######## Input parameters here ########
+
+image_filename = 'source_ab_138_spw25_dirty_512.image'
+mask_filename = 'source_ab_138_spw25_dirty_512_2sigma.mask' # Don't include .mask
+mask_threshold = 3.5 # In mJy
+erosion_iter = 3
+dilation_iter = 4
+
+#######################################
 
 print("Now masking the cube at sigma threshold")
 # Use the code below to mask the cube at a certain sigma threshold
-cube = SpectralCube.read('source_ab_138_spw25_dirty_512.image')
-mask = cube > 7.0*u.mJy/u.beam
+cube = SpectralCube.read(image_filename)
+mask = cube > mask_threshold*u.mJy/u.beam
 from casatools import image
 ia = image()
 print("Now computing boolmask")
@@ -13,11 +24,11 @@ boolmask = mask.include().compute()
 
 print("Now getting coordinates from original image")
 # Use the code below to output a mask file
-ia.open('source_ab_138_spw25_dirty_512.image')
+ia.open(image_filename)
 cs = ia.coordsys()
 ia.close()
 print("Now outputting the mask file")
-ia.fromarray(outfile='source_ab_138_spw25_dirty_512.mask', pixels=boolmask.astype('float')[:,None,:,:].T, csys=cs.torecord(), overwrite=True)
+ia.fromarray(outfile=mask_filename+'.mask', pixels=boolmask.astype('float')[:,None,:,:].T, csys=cs.torecord(), overwrite=True)
 ia.close()
 
 # print("Now visualizing masked cube without the circular vignette")
@@ -42,11 +53,14 @@ import scipy.ndimage
 
 print("Now calculating the eroded/dilated mask")
 # Use the code below to output an eroded/dilated mask
-boolmask_e3_d4 = scipy.ndimage.binary_dilation(scipy.ndimage.binary_erosion(boolmask, iterations=3), iterations=4)
+boolmask_e_d = scipy.ndimage.binary_dilation(scipy.ndimage.binary_erosion(boolmask, iterations=erosion_iter), iterations=dilation_iter)
 print("Now opening the original mask to be rewritten")
-ia.open('source_ab_138_spw25_dirty_512.mask')
+ia.open(mask_filename+'.mask')
 print("Now defining the eroded/dilated mask to export")
-boolmask_e3_d4_export = boolmask_e3_d4[:,None,:,:].T.astype('int')
+boolmask_e_d_export = boolmask_e_d[:,None,:,:].T.astype('int')
 print("Now outputting the eroded/dilated mask")
-ia.putchunk(pixels=boolmask_e3_d4_export)
+ia.putchunk(pixels=boolmask_e_d_export)
 ia.close()
+
+mask_e_d_filename = mask_filename+'e'+erosion_iter+'d'+dilation_iter+'.mask'
+os.rename(mask_filename,mask_e_d_filename)
