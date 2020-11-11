@@ -4,12 +4,12 @@ from astropy import constants, units as u, table, stats, coordinates, wcs, log, 
 import reproject
 import glob
 from reproject.mosaicking import find_optimal_celestial_wcs
-from reproject.mosaicking import reproject_and_coadd
+# from reproject.mosaicking import reproject_and_coadd
 from reproject import reproject_interp
 
-from reproject.utils import parse_input_data, parse_input_weights, parse_output_projection
-from reproject.mosaicking.background import determine_offset_matrix, solve_corrections_sgd
-from reproject.mosaicking.subset_array import ReprojectedArraySubset
+# from reproject.utils import parse_input_data, parse_input_weights, parse_output_projection
+# from reproject.mosaicking.background import determine_offset_matrix, solve_corrections_sgd
+# from reproject.mosaicking.subset_array import ReprojectedArraySubset
 
 
 import requests
@@ -19,23 +19,27 @@ from astropy.utils.console import ProgressBar
 
 from astroquery.eso import Eso
 
+import sys
+
 files = glob.glob("*ADP*fits*")
 if len(files) < 732:
     Eso.ROW_LIMIT = 10000
     Eso.cache_location = '.'
-    Eso.login()
+    Eso.login("abulatek")
 
-    tbl = Eso.query_surveys(surveys='VVV', coord1=0.68, coord2=0, coord_sys='gal', box=1*u.deg)
+    tbl = Eso.query_surveys(surveys='VVV', coord1=0.26097, coord2=0.016167, coord_sys='gal', box=1*u.deg)
     files = Eso.retrieve_data(tbl['ARCFILE'])
 
 #wcs_out, shape_out = find_optimal_celestial_wcs([h[1] for h in hdus], frame='galactic')
+
+sys.exit()
 
 wcs_out = wcs.WCS({"CTYPE1": "GLON-CAR",
                    "CTYPE2": "GLAT-CAR",
                    "CRPIX1": 2000.0,
                    "CRPIX2": 2000.0,
-                   "CRVAL1": 0.68,
-                   "CRVAL2": 0.0,
+                   "CRVAL1": 0.26097,
+                   "CRVAL2": 0.016167,
                    "CDELT1": -0.25/3600., # 0.25" pixels
                    "CDELT2": 0.25/3600.,
                    "CUNIT1": "deg",
@@ -51,34 +55,38 @@ hdu = fits.PrimaryHDU(data=np.zeros([10,10], dtype='float32'))
 header = hdu.header
 header['NAXIS1'] = shape_out[0]
 header['NAXIS2'] = shape_out[0]
-if not os.path.exists('sgrb2_vvv_mosaic_kband.fits'):
+if not os.path.exists('Brick_vvv_mosaic_kband.fits'):
     #hdu.writeto('sgrb2_vvv_mosaic_kband.fits', overwrite=True, output_verify='fix')
-    header.tofile('sgrb2_vvv_mosaic_kband.fits', overwrite=True)
-if not os.path.exists('sgrb2_vvv_mosaic_kband_coverage.fits'):
+    header.tofile('Brick_vvv_mosaic_kband.fits', overwrite=True)
+if not os.path.exists('Brick_vvv_mosaic_kband_coverage.fits'):
     #hdu.writeto('sgrb2_vvv_mosaic_kband_coverage.fits', overwrite=True, output_verify='fix')
-    header.tofile('sgrb2_vvv_mosaic_kband_coverage.fits', overwrite=True)
+    header.tofile('Brick_vvv_mosaic_kband_coverage.fits', overwrite=True)
 
-output_file = fits.open('sgrb2_vvv_mosaic_kband.fits', mode='update', output_verify='fix')
+output_file = fits.open('Brick_vvv_mosaic_kband.fits', mode='update', output_verify='fix')
 if output_file[0].data.shape != shape_out:
     output_file.close()
-    with open('sgrb2_vvv_mosaic_kband.fits', 'rb+') as fobj:
+    with open('Brick_vvv_mosaic_kband.fits', 'rb+') as fobj:
         fobj.seek(len(header.tostring()) + (shape_out[0] * shape_out[1] * 4) - 1)
         fobj.write(b'\0')
-    output_file = fits.open('sgrb2_vvv_mosaic_kband.fits', mode='update', output_verify='fix')
+    output_file = fits.open('Brick_vvv_mosaic_kband.fits', mode='update', output_verify='fix')
 
-output_coverage = fits.open('sgrb2_vvv_mosaic_kband_coverage.fits', mode='update', output_verify='fix')
+output_coverage = fits.open('Brick_vvv_mosaic_kband_coverage.fits', mode='update', output_verify='fix')
 if output_coverage[0].data.shape != shape_out:
     output_coverage.close()
-    with open('sgrb2_vvv_mosaic_kband_coverage.fits', 'rb+') as fobj:
+    with open('Brick_vvv_mosaic_kband_coverage.fits', 'rb+') as fobj:
         fobj.seek(len(header.tostring()) + (shape_out[0] * shape_out[1] * 4) - 1)
         fobj.write(b'\0')
-    output_coverage = fits.open('sgrb2_vvv_mosaic_kband_coverage.fits', mode='update', output_verify='fix')
+    output_coverage = fits.open('Brick_vvv_mosaic_kband_coverage.fits', mode='update', output_verify='fix')
 
 
 output_file[0].header.update(wcs_out.to_header())
 output_coverage[0].header.update(wcs_out.to_header())
 final_array = output_file[0].data
 final_footprint = output_coverage[0].data
+
+# alyssa: maybe stop here?
+
+
 
 output_projection = wcs_out
 
