@@ -6,7 +6,7 @@ import os
 ######## Input parameters here ########
 
 image_filename = 'source_ab_138_spw25_dirty_512.image'
-mask_filename = 'source_ab_138_spw25_dirty_512_2sigma.mask' # Don't include .mask
+mask_filename = 'source_ab_138_spw25_dirty_512_2sigma' # Don't include .mask
 mask_threshold = 3.5 # In mJy
 erosion_iter = 3
 dilation_iter = 4
@@ -62,5 +62,5 @@ print("Now outputting the eroded/dilated mask")
 ia.putchunk(pixels=boolmask_e_d_export)
 ia.close()
 
-mask_e_d_filename = mask_filename+'e'+erosion_iter+'d'+dilation_iter+'.mask'
-os.rename(mask_filename,mask_e_d_filename)
+mask_e_d_filename = mask_filename+'_e'+str(erosion_iter)+'_d'+str(dilation_iter)
+os.rename(mask_filename+'.mask',mask_e_d_filename+'.mask')
