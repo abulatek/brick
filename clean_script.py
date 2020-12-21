@@ -1,10 +1,10 @@
 data_path = '/blue/adamginsburg/abulatek/brick/symlinks/data_31/calibrated_final.ms'
 results_path = '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/'
 
-output_name = results_path+'source_ab_138_spw25_clean_2sigma_masked_2sigma' # Do not add .image
-mask_name = results_path+'source_ab_138_spw25_dirty_512_2sigma_e3_d4.mask'
-threshold_val = '3.5mJy'
-iterations = 10000
+output_name = results_path+'source_ab_138_spw31_clean_2sigma_n50000_masked_3sigma_pbmask0p18' # Do not add .image
+mask_name = results_path+'source_ab_138_spw31_dirty_512_3sigma_e2_d2.mask'
+threshold_val = '4.24mJy'
+iterations = 50000
 
-tclean(vis=data_path, imagename=output_name, field='2', spw='25', specmode='cube', gridder='standard', cell=['0.2arcsec'], imsize=[512,512], weighting='natural', threshold=threshold_val, mask=mask_name, niter=iterations, interactive=False, chanchunks=-1)
+tclean(vis=data_path, imagename=output_name, field='2', spw='31', specmode='cube', gridder='standard', cell=['0.2arcsec'], imsize=[512,512], weighting='natural', threshold=threshold_val, mask=mask_name, pbmask=0.18, niter=iterations, interactive=False, chanchunks=-1)
 
