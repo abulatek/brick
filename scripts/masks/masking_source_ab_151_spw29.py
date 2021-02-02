@@ -5,9 +5,9 @@ import os
 
 ######## Input parameters here ########
 
-image_filename = 'source_ab_138_spw31_dirty_512.image'
-mask_filename = 'source_ab_138_spw31_dirty_512_3sigma' # Don't include .mask
-mask_threshold = 6.4 # In mJy
+image_filename = 'source_ab_151_spw29_dirty_512.image'
+mask_filename = 'source_ab_151_spw29_dirty_512_3sigma' # Don't include .mask
+mask_threshold = 5.1 # In mJy
 erosion_dilation = True
 erosion_iter = 2
 dilation_iter = 2

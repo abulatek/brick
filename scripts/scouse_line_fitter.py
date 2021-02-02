@@ -1,13 +1,14 @@
 from scousepy import scouse
 from astropy.io import fits
 import os
+import matplotlib.pyplot as pl
 pl.ion()
 
 def run_scousepy():
   datadirectory =  '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/'
   outputdir     =  '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/scouse_output/simple_example_run/'
-  filename      =  'source_ab_138_spw31_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image'
-  ppv_vol       = [32.0,42.0,None,None,None,None]
+  filename      =  'source_ab_138_spw31_clean_2sigma_n50000_masked_3sigma_pbmask0p18_vel_HNCO'
+  ppv_vol       = [0.0,50.0,170,240,270,340]
   wsaa          = [8.0]
   tol           = [3.0, 1.0, 3.0, 3.0, 0.5]
   verb          = True
