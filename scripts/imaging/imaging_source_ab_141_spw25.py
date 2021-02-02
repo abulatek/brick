@@ -68,7 +68,7 @@ def make_mask(dirty_cube, dirty_map_image, sigma, erosion_iter, dilation_iter, e
 		print("Eroded/dilated mask output successful!")
 		print("Now renaming mask file for consistency")
 		mask_e_d_image = mask_image+'_e'+str(erosion_iter)+'_d'+str(dilation_iter)
-        	os.rename(mask_image+'.mask',mask_e_d_image+'.mask')
+		os.rename(mask_image+'.mask',mask_e_d_image+'.mask')
 		print("Eroded/dilated mask file successfully renamed!")
 		return mask_e_d_image
 
