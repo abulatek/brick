@@ -29,9 +29,9 @@ def measure_sigma(cube, nchan=50):
     '''Calculate a more robust version of the standard deviation in a cube with the median absolute deviation.
     Uses the middle 50 frequency channels by default, but this can be changed.'''
     print("Now measuring the mad_std in the dirty map")
-    width = nchan/2 
-    freq_lo, freq_hi = int(cube.shape[0]/2)-width, int(cube.shape[0]/2)+width
-    sigma = np.nanmedian(cube[freq_lo:freq_hi,:,:].mad_std(axis=0)) # Ignores NaN values
+    width = nchan/2
+    freq_lo, freq_hi = cube.shape[0]/2-width, cube.shape[0]/2+width
+    sigma = np.nanmedian(cube[int(freq_lo):int(freq_hi),:,:].mad_std(axis=0)) # Ignores NaN values
     print("Standard deviation calculation successful!")
     return round(sigma.value,1)
 
