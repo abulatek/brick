@@ -39,7 +39,7 @@ def make_mask(dirty_cube, dirty_map_image, sigma, erosion_iter, dilation_iter, e
     '''Masks a dirty cube at three times a provided sigma value.'''
     mask_image = dirty_map_image+'_3sigma' # Initialize mask filename
     print("Now masking the cube at 3 sigma")
-    mask = dirty_cube > 3.*sigma
+    mask = dirty_cube > 3.*sigma*u.mJy/u.beam
     print("Masking successful!")
     print("Now computing boolmask")
     ia = image()

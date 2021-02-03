@@ -5,3 +5,5 @@ logs/
 *.pickle
 *.fz
 *.fits
+
+tclean.last
