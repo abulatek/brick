@@ -73,7 +73,7 @@ def make_mask(dirty_cube, dirty_map_image, sigma, erosion_iter, dilation_iter, e
         return mask_e_d_image
 
 def deep_clean(data_path, output_dir, image_prefix, sigma, nsigma, mask_image, niter):
-    cleaned_image = image_prefix+'_clean_'+int(nsigma)+'sigma_n'+niter+'_masked_3sigma_pbmask0p18' # Do not add .image because CASA just wants prefix
+    cleaned_image = image_prefix+'_clean_'+str(nsigma)+'sigma_n'+niter+'_masked_3sigma_pbmask0p18' # Do not add .image because CASA just wants prefix
     tclean(vis=data_path, imagename=cleaned_image, field='2', spw='29', specmode='cube', gridder='standard', 
            cell=['0.2arcsec'], imsize=[512,512], weighting='natural', threshold=str(round(nsigma*sigma,1))+'mJy', mask=mask_image+'.mask',
            pbmask=0.18, niter=niter, interactive=False, chanchunks=-1)
