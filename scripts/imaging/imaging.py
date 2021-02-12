@@ -9,12 +9,17 @@ from astropy import units as u
 from casatools import image
 import scipy.ndimage
 import os
+import sys
+
+# Grab variables from command line arguments
+data_dir = sys.argv[1] # Will be a string; e.g. data_31
+freq_num = sys.argv[2] # Will be a string; e.g. 134
+spw = sys.argv[3] # Will be a string; e.g. 45
 
 # Define variables
-data_path = '/blue/adamginsburg/abulatek/brick/symlinks/data_31/calibrated_final.ms'
+data_path = '/blue/adamginsburg/abulatek/brick/symlinks/'+data_dir+'/calibrated_final.ms'
 output_dir = '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/'
-image_prefix = output_dir+'source_ab_141_spw25'
-spw = '25'
+image_prefix = output_dir+'source_ab_'+freq_num+'_spw'+spw
 
 def make_dirty_map(data_path, image_prefix, spw):
     '''Make a dirty map from a spectral window in a dataset. Parameters are pre-tuned but can be edited.'''
