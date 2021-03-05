@@ -15,17 +15,19 @@ import sys
 data_dir = sys.argv[1] # Will be a string; e.g. data_31
 freq_num = sys.argv[2] # Will be a string; e.g. 134
 spw = sys.argv[3] # Will be a string; e.g. 45
+field = sys.argv[4] # Will be a string; e.g. 2
 
 # Define variables
 data_path = '/blue/adamginsburg/abulatek/brick/symlinks/'+data_dir+'/calibrated_final.ms'
+print('Data path is:',data_path)
 output_dir = '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/'
 image_prefix = output_dir+'source_ab_'+freq_num+'_spw'+spw
 
-def make_dirty_map(data_path, image_prefix, spw):
+def make_dirty_map(data_path, image_prefix, spw, field):
     '''Make a dirty map from a spectral window in a dataset. Parameters are pre-tuned but can be edited.'''
     dirty_map_image = image_prefix+'_dirty'
     print("Now creating dirty map:",dirty_map_image)
-    tclean(vis=data_path, imagename=dirty_map_image, field='2', spw=spw, specmode='cube', gridder='standard',
+    tclean(vis=data_path, imagename=dirty_map_image, field=field, spw=spw, specmode='cube', gridder='standard',
 	   cell=['0.2arcsec'], imsize=[512,512], weighting='natural', threshold='0.0mJy', interactive=False, chanchunks=-1)
     print("Dirty map creation successful!")
     return dirty_map_image # Return image name for use later
@@ -79,18 +81,18 @@ def make_mask(dirty_cube, dirty_map_image, sigma, erosion_iter, dilation_iter, e
         print("Eroded/dilated mask file successfully renamed!")
         return mask_e_d_image
 
-def deep_clean(data_path, output_dir, image_prefix, spw, sigma, nsigma, mask_image, niter):
+def deep_clean(data_path, output_dir, image_prefix, spw, sigma, nsigma, mask_image, niter, field):
     '''Perform a deep clean on a dataset.'''
     cleaned_image = image_prefix+'_clean_'+str(int(nsigma))+'sigma_n'+str(niter)+'_masked_3sigma_pbmask0p18' # Do not add .image because CASA just wants prefix
     print("Now beginning deep clean:",cleaned_image)
-    tclean(vis=data_path, imagename=cleaned_image, field='2', spw=spw, specmode='cube', gridder='standard', 
+    tclean(vis=data_path, imagename=cleaned_image, field=field, spw=spw, specmode='cube', gridder='standard', 
            cell=['0.2arcsec'], imsize=[512,512], weighting='natural', threshold=str(round(nsigma*sigma,1))+'mJy', mask=mask_image+'.mask',
            pbmask=0.18, niter=niter, interactive=False, chanchunks=-1)
     print("Deep clean complete!")
     return cleaned_image
 
-dirty_map_image = make_dirty_map(data_path, image_prefix, spw)
+dirty_map_image = make_dirty_map(data_path, image_prefix, spw, field)
 dirty_cube = SpectralCube.read(dirty_map_image+'.image') # Not sure if this is best method, but helps us avoid multiple read-ins
 sigma = measure_sigma(dirty_cube) # Will have units of mJy/beam, but be a float rounded to 1 decimal place
 mask_image = make_mask(dirty_cube, dirty_map_image, sigma, 2, 2)
-cleaned_image = deep_clean(data_path, output_dir, image_prefix, spw, sigma, 2., mask_image, 50000)
+cleaned_image = deep_clean(data_path, output_dir, image_prefix, spw, sigma, 2., mask_image, 50000, field)

@@ -1,7 +1,0 @@
-2020-09-11 21:18:01	INFO	::casa	
-2020-09-11 21:18:01	INFO	::casa	Checking telemetry submission interval
-2020-09-11 21:18:01	INFO	::casa	Creating a new telemetry time stamp file./home/abulatek/.casa/telemetry-d29e122e41e52cb.stamp
-2020-09-11 21:18:01	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
-2020-09-11 21:18:01	INFO	::casa	Next telemetry data submission in: 6 days, 23:59:59.999644
-2020-09-11 21:18:01	INFO	::casa	CASA Version  5.7.0-134  
-2020-09-11 21:18:05	INFO	::casa	
