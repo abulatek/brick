@@ -56,7 +56,8 @@ def plot_spectrum_line_ids_final(fn, ids, save=False):
     kspectrum_ps.xarr.convert_to_unit('GHz')
     kspectrum_ps.plotter(figure=fig2)
     kspectrum_ps.plotter.line_ids(figure=fig2, line_names=ids['Species'], # ChemicalName 
-                                  line_xvals=ids['Frequency (GHz)'], xval_units='GHz', 
+                                  line_xvals=ids['Frequency (GHz)'] - (ids['Frequency (GHz)']*(ids['Velocity (km/s)']/299792.)),
+                                  xval_units='GHz', 
                                   plot_kwargs={'color':'silver'})
     pl.show()
     if save == True:
