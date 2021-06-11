@@ -5,7 +5,7 @@ from spectral_cube import OneDSpectrum
 from astropy.io import fits
 from astropy import units as u
 
-def plot_spectrum(fn):
+def plot_spectrum(fn, save=False):
 #     pl.close(1)
     pl.close(2)
     
@@ -14,11 +14,15 @@ def plot_spectrum(fn):
 #     spectrum.plotter(figure=fig)
 #     pl.show()
 
-    fig2=pl.figure(2, figsize=(10,5))
+    fig2=pl.figure(2, figsize=(12,5))
     kspectrum = OneDSpectrum.from_hdu(fits.open(fn)).to(u.K)
     kspectrum_ps = pyspeckit.Spectrum.from_hdu(kspectrum.hdu)
+    kspectrum_ps.xarr.convert_to_unit('GHz')
     kspectrum_ps.plotter(figure=fig2)
     pl.show()
+    if save == True:
+        filename = 'test_spectrum.png'
+        kspectrum_ps.plotter.figure.savefig(filename, dpi=200, bbox_inches='tight')
 
 def plot_spectrum_line_ids(fn, ids):
 #     pl.close(1)
