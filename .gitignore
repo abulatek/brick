@@ -7,3 +7,6 @@ logs/
 *.fits
 
 tclean.last
+
+ACES/brick_linesurvey
+
