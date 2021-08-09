@@ -88,6 +88,6 @@ def line_ids(fn):
         match_table = table.unique(match_table, keys='Species')
     match_table.sort('Freq')
     print(match_table.pprint(max_width=200))
-    print(match_table['Species','Freq','QNs','Velocity'])
+    print(match_table['Species','QNs','Freq','Velocity'].pprint(max_width=200))
 #     match_table.write(f"line_fit_table_{suffix}.ipac", format='ascii.ipac', overwrite=True)
     return match_table
