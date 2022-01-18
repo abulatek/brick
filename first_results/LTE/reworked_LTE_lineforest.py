@@ -1,5 +1,5 @@
 ### User-configurable parameters (some of these should be moved to being command line inputs)
-spw = '110_spw29' 
+spw = '146_spw51' # '110_spw29' worked before
 prefix = '/blue/adamginsburg/abulatek/brick/first_results/temperature_map/' # For temperature and column density maps
 
 # Import various packages
@@ -45,7 +45,7 @@ offset = np.nanpercentile(sp.data.filled(np.nan), 20)
 # Be cautious! Not all line catalogs have all of these species, some species
 # can result in multiple matches from splatalogue, and definitely not all
 # species have the same column and excitation
-species_list = ('HNCO', 'CH3CN',) # 'C18O', '13CO', #, 'HNCO'
+species_list = ('CH3CN',) # 'C18O', '13CO', #, 'HNCO'
 # REMEMBER THE COMMA AT THE END TO MAKE THIS A TUPLE!
 # Molecules that didn't work: 'H13CN', 'H13CO+', 'HN13C', 'C18O', '13CO',
 # I think I don't know how to search for these, and I don't know which database I should be picking names from. Need to find that out
@@ -66,8 +66,8 @@ for species, axis in zip(species_list, axes):
     mod = lte_molecule.generate_model(sp.xarr, # In order to incr. spectral res, need this to be fine
                                       50*u.km/u.s, 
                                       1.5*u.km/u.s, 
-                                      100*u.K, 
-                                      5e15*u.cm**-2, 
+                                      86.06726*u.K, # TEMPERATURE
+                                      (10**(13.41654))*u.cm**-2, # TOTAL COLUMN DENSITY
                                       freqs, aij, deg, EU, partfunc) # Can add another velocity component
     mods.append(mod)
 
