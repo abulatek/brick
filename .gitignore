@@ -1,6 +1,8 @@
 
 .DS_Store
 logs/
+/.ipynb_checkpoints
+first_results/.ipynb_checkpoints
 
 *.pickle
 *.fz
