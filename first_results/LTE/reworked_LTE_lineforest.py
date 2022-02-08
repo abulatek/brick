@@ -30,10 +30,13 @@ log_N = fits.getdata(f'{prefix}log_N_test.fits')
 masked_cube = SpectralCube.read(f'{prefix}methyl_cyanide/ch3cn_0_masked.fits', format='fits')
 mom1 = masked_cube.moment1()
 
-# Take a spectrum from the cube
-meanspec = cube.max(axis=(1,2)) #, how='slice', progressbar=True)
-meanspec_K = meanspec.value * cube.jtok_factors() # have to hack this, which is _awful_ and we need to fix it
-sp = pyspeckit.Spectrum(xarr=cube.spectral_axis, data=meanspec_K)
+# Take a spectrum from the cube at a pixel
+xpix, ypix = [319, 220]
+# meanspec = cube.max(axis=(1,2)) #, how='slice', progressbar=True)
+# meanspec_K = meanspec.value * cube.jtok_factors() # have to hack this, which is _awful_ and we need to fix it
+spec = cube[:, ypix, xpix]
+spec_K = spec.value * cube.jtok_factors() # have to hack this, which is _awful_ and we need to fix it
+sp = pyspeckit.Spectrum(xarr=cube.spectral_axis, data=spec_K, unit=u.K)
 
 # The LTE model doesn't include an explicit filling factor, so we impose one
 fillingfactor = 0.05
@@ -59,15 +62,15 @@ pl.draw()
 mods = []
 for species, axis in zip(species_list, axes):
     print(species, axis)
-    freqs, aij, deg, EU, partfunc = lte_molecule.get_molecular_parameters_JPL(species, 
+    freqs, aij, deg, EU, partfunc = lte_molecule.get_molecular_parameters(species, 
                                                                               fmin=sp.xarr.min(),
-                                                                              fmax=sp.xarr.max())
+                                                                              fmax=sp.xarr.max(), catalog='JPL')
     fine_xarr = np.linspace(sp.xarr.min(), sp.xarr.max(), 1000)
     mod = lte_molecule.generate_model(sp.xarr, # In order to incr. spectral res, need this to be fine
                                       50*u.km/u.s, 
                                       1.5*u.km/u.s, 
-                                      86.06726*u.K, # TEMPERATURE
-                                      (10**(13.41654))*u.cm**-2, # TOTAL COLUMN DENSITY
+                                      33.2*u.K, # TEMPERATURE
+                                      (10**(13.69))*u.cm**-2, # TOTAL COLUMN DENSITY
                                       freqs, aij, deg, EU, partfunc) # Can add another velocity component
     mods.append(mod)
 
