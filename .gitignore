@@ -5,6 +5,7 @@ logs/
 first_results/.ipynb_checkpoints
 first_results/lineID/.ipynb_checkpoints
 first_results/temperature_map/.ipynb_checkpoints
+first_results/diagnostic_plots
 
 *.pickle
 *.fz
