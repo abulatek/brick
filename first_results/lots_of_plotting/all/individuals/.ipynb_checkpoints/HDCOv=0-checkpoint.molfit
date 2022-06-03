@@ -1,0 +1,10 @@
+%%MinNumTransitionsSQL = 1
+%%MaxNumTransitionsSQL = 0
+%%MaxElowSQL = 1000000.0
+%%MingASQL = 0.0
+%%OrderTransSQL = 1
+%	source size:	T_kin:		N_tot:		V_width:	V_off:		CFFlag:
+%	[arcsec]:	[K]:		[cm-2]:		[km /s]:	[km /s]:	[]:
+HDCO;v=0;	1
+n 0.0 1.0 0.33		n 0.0 180.0 151		n 1.0e+14 1.0e+18 1.0e+15	n 0.0 0.0 5.0		n 0.0 0.0 40.0		c
+

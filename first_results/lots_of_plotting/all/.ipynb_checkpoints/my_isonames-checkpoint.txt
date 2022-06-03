@@ -1,0 +1,15 @@
+% isotopologue:                               Iso-master:                                                  Iso-ratio:              Lower-limit:              upper-limit:       Collision rates file:
+C-13-H3OH;v=0;                                CH3OH;v=0;                                                        42.00                     35.00                     50.00       
+CH3O-18-H;v=0;                                CH3OH;v=0;                                                       330.00                    240.00                    380.00       
+CH3OH;v12=1;                                  CH3OH;v=0;                                                         1.00                      1.00                      1.00       
+CH3OH;v12=2;                                  CH3OH;v=0;                                                         1.00                      1.00                      1.00       
+HCOCH2OH;v12=1;                               HCOCH2OH;v=0;                                                      1.00                      1.00                      1.00       
+HCOCH2OH;v18=1;                               HCOCH2OH;v=0;                                                      1.00                      1.00                      1.00       
+C-13-H2(OH)CHO;v=0;                           HCOCH2OH;v=0;                                                     42.00                     40.00                     50.00       
+CH2(OH)C-13-HO;v=0;                           HCOCH2OH;v=0;                                                     42.00                     40.00                     50.00       
+HC-13-(O)NH2;v=0;                             HC(O)NH2;v=0;                                                     42.00                     35.00                     50.00       
+HC(O)N-15-H2;v=0;                             HC(O)NH2;v=0;                                                    200.00                    100.00                    400.00       
+HC(O-18)NH2;v=0;                              HC(O)NH2;v=0;                                                    330.00                    260.00                    380.00       
+HC(O)NH2;v12=1;                               HC(O)NH2;v=0;                                                      1.00                      1.00                      1.00       
+cis-HC(O)NHD;v=0;                             HC(O)NH2;v=0;                                                    200.00                    100.00                    800.00       
+trans-HC(O)NHD;v=0;                           HC(O)NH2;v=0;                                                    200.00                    100.00                    800.00       

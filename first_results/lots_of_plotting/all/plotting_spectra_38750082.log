@@ -1,0 +1,273 @@
+/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all
+c0713a-s22.ufhpc
+Wed Jun  1 14:08:35 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+89_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+91_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+93_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+95_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+97_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+98_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+99_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+102_spw23
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+102_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+104_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+103_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+106_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+107_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+110_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+111_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+112_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+114_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+127_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+129_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+130_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+132_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+134_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+135_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+137_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+137_spw69
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+139_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+140_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+142_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+144_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+146_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+147_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+149_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+142_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+152_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+244_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+245_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+247_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+249_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+250_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+252_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+254_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+255_spw87
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+257_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+259_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+259_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+261_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+263_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+264_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+266_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+268_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+270_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+271_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
+273_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 13, in <module>
+    from spectral_cube import SpectralCube
+ModuleNotFoundError: No module named 'spectral_cube'
