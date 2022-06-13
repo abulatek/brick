@@ -169,7 +169,7 @@ vLSR = 0.0
 def import_and_smooth_cube(freq_spw):
     basefn = results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image'
     if os.path.exists(basefn+".commonbeam.fits"):
-        smoothed_cube = SpectralCube.read(basefn+".commonbeam.fits", use_dask=True)
+        smoothed_cube = SpectralCube.read(basefn+".commonbeam.fits", use_dask = True)
         if smoothed_cube.max() == 0:
             # Remove cached "bad" version of smoothed cube, and resave
             os.remove(basefn+".commonbeam.fits")
