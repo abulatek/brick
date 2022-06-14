@@ -20,6 +20,7 @@ import io
 from contextlib import redirect_stdout
 import glob
 from astropy.stats import mad_std
+import regions
 
 ## Grab spectral window from command line arguments
 freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
@@ -47,6 +48,11 @@ plt.rc('xtick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('ytick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('legend', fontsize = SM_SIZE)    # Legend fontsize
 plt.rc('figure', titlesize = LG_SIZE)   # Fontsize of the figure title
+plt.rcParams.update({
+    "figure.facecolor":  'none',
+    "axes.facecolor":    'w',
+    "savefig.facecolor": 'none'
+})
 # # Set up color and linestyle cycler
 # from cycler import cycler
 # plt.rc('axes', prop_cycle=(cycler('color', ['xkcd:azure', 'xkcd:orange', 'xkcd:teal', 'xkcd:magenta']) * cycler('linestyle', ['--', ':', '-.', (0,(3,1,1,1,1,1))])))
@@ -192,9 +198,16 @@ def extract_spectrum(smoothed_cube):
     # Extract spectrum for a coordinate in central core region
     crd = coordinates.SkyCoord("17:46:10.63 -28:42:17.8", frame='fk5', unit=(u.h, u.deg))
     x, y = map(int, smoothed_cube.wcs.celestial.world_to_pixel(crd))
-    m0 = smoothed_cube.moment0()
+#     m0 = smoothed_cube.moment0() # Why are we doing this? I don't think we have to do this
     spectrum = smoothed_cube[:, y, x].to(u.K)
     return spectrum
+
+def mean_spectrum(smoothed_cube):
+    # Take the mean spectrum of the outflow cavity region
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+    smoothed_scube = smoothed_cube.subcube_from_regions(reg)
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+    return mean_spectrum
 
 def contsub_spectrum(spectrum):
     # Preliminary continuum subtraction
@@ -281,9 +294,9 @@ def plot_spectra(spectrum_contsub, modeldata_all, transenergies_all, MolfitsFile
     plt.ylabel(f"Brightness temperature [{spectrum.unit}]")
     plt.xlim(smoothed_cube.spectral_extrema.to(u.GHz).value)
     # plt.xlim(137.25, 137.50)
-    plt.title(f"{freq_spw} data and model comparison, $T$ = {tkin:.1f} K, $\log_{{10}}(N_{{tot}})$ = {np.log10(Ntot):.2f}") # y = 0.92 # NOTE: TKIN AND NTOT MAY CHANGE WHEN WE FIT !
+    plt.title(f"{freq_spw} data and model comparison (core), $T$ = {tkin:.1f} K, $\log_{{10}}(N_{{tot}})$ = {np.log10(Ntot):.2f}") # y = 0.92 # NOTE: TKIN AND NTOT MAY CHANGE WHEN WE FIT !
     plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.pdf", facecolor = 'w', edgecolor = 'w', bbox_inches = 'tight', overwrite = True)
-    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 300, facecolor = 'w', edgecolor = 'w', bbox_inches = 'tight', overwrite = True)
+    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 200, bbox_inches = 'tight', overwrite = True)
 
 if __name__ == "__main__":
     smoothed_cube = import_and_smooth_cube(freq_spw)
