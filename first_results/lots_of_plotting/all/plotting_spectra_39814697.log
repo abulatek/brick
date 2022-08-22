@@ -1,0 +1,1245 @@
+/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all
+c26a-s22.ufhpc
+Tue Jun 14 13:48:12 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+89_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+91_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+93_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+95_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+97_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+98_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+99_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+102_spw23
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+102_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+104_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+103_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+106_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+107_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+110_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+111_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+112_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+114_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+127_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+129_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+130_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+132_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+134_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+135_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+137_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+137_spw69
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+139_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+140_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+142_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+144_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+146_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+147_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+149_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+142_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+152_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+244_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+245_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+247_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+249_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+250_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+252_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+254_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+255_spw87
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+257_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+259_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+259_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+261_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+263_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+264_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+266_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+268_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+270_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+271_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.
+273_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 207, in mean_spectrum
+    reg = regions.Regions.read('outflow_cavity_region.reg')
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/regions.py", line 161, in read
+    cache=cache, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/core/registry.py", line 71, in read
+    return cls.registry[key](filename, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 64, in _read_ds9
+    return _parse_ds9(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 69, in _parse_ds9
+    parser = _DS9Parser(region_string, errors=errors)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 194, in __init__
+    self.run()
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 223, in run
+    self.parse_line(line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 268, in parse_line
+    self.parse_region(include, region_type, region_end, line)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/regions/io/ds9/read.py", line 326, in parse_region
+    raise DS9RegionParserError('No coordinate system specified and a '
+regions.io.ds9.core.DS9RegionParserError: No coordinate system specified and a region has been found.

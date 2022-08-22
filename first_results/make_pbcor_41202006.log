@@ -1,0 +1,273 @@
+/blue/adamginsburg/abulatek/brick/first_results
+c23a-s42.ufhpc
+Tue Jul  5 16:52:40 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+89_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+91_spw25
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+93_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+95_spw25
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+97_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+98_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+99_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+102_spw23
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+102_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+104_spw25
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+103_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+106_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+107_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+110_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+111_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+112_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+114_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+127_spw65
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+129_spw67
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+130_spw105
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+132_spw107
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+134_spw45
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+135_spw47
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+137_spw85
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+137_spw69
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+139_spw71
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+140_spw109
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+142_spw111
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+144_spw49
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+146_spw51
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+147_spw89
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+149_spw91
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+142_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+152_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+244_spw65
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+245_spw67
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+247_spw105
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+249_spw107
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+250_spw25
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+252_spw27
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+254_spw85
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+255_spw87
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+257_spw45
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+259_spw47
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+259_spw71
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+261_spw109
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+263_spw111
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+264_spw29
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+266_spw31
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+268_spw89
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+270_spw91
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+271_spw49
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined
+273_spw51
+Traceback (most recent call last):
+  File "make_pbcor.py", line 14, in <module>
+    freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
+NameError: name 'sys' is not defined

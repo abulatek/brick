@@ -20,6 +20,7 @@ import io
 from contextlib import redirect_stdout
 import glob
 from astropy.stats import mad_std
+import regions
 
 ## Grab spectral window from command line arguments
 freq_spw = sys.argv[1] # Will be a string; e.g. 87_spw25
@@ -37,7 +38,7 @@ tkin = 151 # This needs to be changed if its value in the molfit files changes (
 Ntot = 5.0e+13 # This needs to be changed if its value in the molfit files changes (TODO: GRAB THIS FROM FITTING RESULTS)
 
 ## Set up some matplotlib settings
-SM_SIZE = 12
+SM_SIZE = 14
 MD_SIZE = 18
 LG_SIZE = 22
 plt.rc('font', size = MD_SIZE)          # Controls default text sizes
@@ -47,6 +48,12 @@ plt.rc('xtick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('ytick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('legend', fontsize = SM_SIZE)    # Legend fontsize
 plt.rc('figure', titlesize = LG_SIZE)   # Fontsize of the figure title
+plt.rc('figure', facecolor = 'w')
+plt.rcParams.update({
+    "figure.facecolor":  'w',
+    "axes.facecolor":    'w',
+    "savefig.facecolor": 'none'
+})
 # # Set up color and linestyle cycler
 # from cycler import cycler
 # plt.rc('axes', prop_cycle=(cycler('color', ['xkcd:azure', 'xkcd:orange', 'xkcd:teal', 'xkcd:magenta']) * cycler('linestyle', ['--', ':', '-.', (0,(3,1,1,1,1,1))])))
@@ -169,7 +176,7 @@ vLSR = 0.0
 def import_and_smooth_cube(freq_spw):
     basefn = results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image'
     if os.path.exists(basefn+".commonbeam.fits"):
-        smoothed_cube = SpectralCube.read(basefn+".commonbeam.fits", use_dask=True)
+        smoothed_cube = SpectralCube.read(basefn+".commonbeam.fits", use_dask = True)
         if smoothed_cube.max() == 0:
             # Remove cached "bad" version of smoothed cube, and resave
             os.remove(basefn+".commonbeam.fits")
@@ -177,7 +184,7 @@ def import_and_smooth_cube(freq_spw):
             cube = SpectralCube.read(basefn, use_dask = True)
             # Convert cube to a common beam
             cube_common_beam = cube.beams.common_beam(max_iter = 20, max_epsilon = 0.01)
-            smoothed_cube = cube.convolve_to(cube_common_beam) # Convert from VaryingResolution
+            smoothed_cube = cube.convolve_to(cube_common_beam) # Convert from VaryingResolution to regular
             smoothed_cube.write(basefn+".commonbeam.fits")
     else:
         log.info(f"Smoothing cube {basefn}")
@@ -192,7 +199,7 @@ def extract_spectrum(smoothed_cube):
     # Extract spectrum for a coordinate in central core region
     crd = coordinates.SkyCoord("17:46:10.63 -28:42:17.8", frame='fk5', unit=(u.h, u.deg))
     x, y = map(int, smoothed_cube.wcs.celestial.world_to_pixel(crd))
-    m0 = smoothed_cube.moment0()
+#     m0 = smoothed_cube.moment0() # Why are we doing this? I don't think we have to do this
     spectrum = smoothed_cube[:, y, x].to(u.K)
     return spectrum
 
@@ -281,9 +288,9 @@ def plot_spectra(spectrum_contsub, modeldata_all, transenergies_all, MolfitsFile
     plt.ylabel(f"Brightness temperature [{spectrum.unit}]")
     plt.xlim(smoothed_cube.spectral_extrema.to(u.GHz).value)
     # plt.xlim(137.25, 137.50)
-    plt.title(f"{freq_spw} data and model comparison, $T$ = {tkin:.1f} K, $\log_{{10}}(N_{{tot}})$ = {np.log10(Ntot):.2f}") # y = 0.92 # NOTE: TKIN AND NTOT MAY CHANGE WHEN WE FIT !
+    plt.title(f"{freq_spw} data and model comparison (core), $T$ = {tkin:.1f} K, $\log_{{10}}(N_{{tot}})$ = {np.log10(Ntot):.2f}") # y = 0.92 # NOTE: TKIN AND NTOT MAY CHANGE WHEN WE FIT !
     plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.pdf", facecolor = 'w', edgecolor = 'w', bbox_inches = 'tight', overwrite = True)
-    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 300, facecolor = 'w', edgecolor = 'w', bbox_inches = 'tight', overwrite = True)
+    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 250, bbox_inches = 'tight', overwrite = True)
 
 if __name__ == "__main__":
     smoothed_cube = import_and_smooth_cube(freq_spw)

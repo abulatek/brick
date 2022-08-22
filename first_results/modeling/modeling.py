@@ -1,0 +1,1 @@
+# TO DO: replicate all_spectra_and_models.py, but also include option for cavity edge, and make the code like modeling_core.ipynb

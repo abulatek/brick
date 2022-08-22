@@ -1,0 +1,195 @@
+/blue/adamginsburg/abulatek/brick/scripts/bash
+c0709a-s11.ufhpc
+Tue Jul 19 20:00:18 EDT 2022
+data_55
+93
+27
+2
+casa_clean_ab_93_spw27_2sigma_reimaging.log
+--> CrashReporter initialized.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:05:43	WARN	SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:11:30	WARN	task_tclean::SIImageStore::restore (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 2089)	Restoring with an empty model image. Only residuals will be processed to form the output restored image.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:16:43	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:22:46	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+2022-07-20 00:25:54	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:36:32	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:48:20	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 00:59:34	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C1919:P0] 
+optional configuration file config.py not found, continuing CASA startup without it
+[22;0t]0;IPython: scripts/bashUsing matplotlib backend: agg
+Creating a new telemetry file
+CASA 6.1.0.118 -- Common Astronomy Software Applications [6.1.0.118]
+Data path is: /blue/adamginsburg/abulatek/brick/symlinks/data_55/calibrated_final.ms
+Now creating dirty map: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_93_spw27_reimaging_dirty
+Dirty map creation successful!
+Now measuring the mad_std in the dirty map
+Standard deviation calculation successful! Result: 0.9 mJy/beam
+Now masking the cube at 3 sigma
+Masking successful!
+Now computing boolmask
+Boolmask computation successful!
+Now getting coordinates from original image
+Coordinates retrieved successfully!
+Now outputting the mask file
+Mask file output successful!
+Now calculating the eroded/dilated boolmask
+Eroded/dilated boolmask calculation successful!
+Now defining the eroded/dilated mask to export
+Now outputting the eroded/dilated mask
+Eroded/dilated mask output successful!
+Now renaming mask file for consistency
+Eroded/dilated mask file successfully renamed!
+Now beginning deep clean: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_93_spw27_reimaging_clean_2sigma_n50000_masked_3sigma_pbmask0p18
+Deep clean complete!
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/lib/py/lib/python3.6/site-packages/casa_formats_io/casa_dask.py:232: RuntimeWarning: divide by zero encountered in long_scalars
+  factors = [f for f in range(stacks[dim] + 1) if stacks[dim] % f == 0]
+WARNING: StokesWarning: Cube is a Stokes cube, returning spectral cube for I component [spectral_cube.io.core]
+data_31
+146
+51
+2
+casa_clean_ab_146_spw51_2sigma_reimaging.log
+--> CrashReporter initialized.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 01:15:03	WARN	task_tclean::SIImageStore::restore (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 2089)	Restoring with an empty model image. Only residuals will be processed to form the output restored image.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+optional configuration file config.py not found, continuing CASA startup without it
+[22;0t]0;IPython: scripts/bashUsing matplotlib backend: agg
+CASA 6.1.0.118 -- Common Astronomy Software Applications [6.1.0.118]
+Data path is: /blue/adamginsburg/abulatek/brick/symlinks/data_31/calibrated_final.ms
+Now creating dirty map: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_146_spw51_reimaging_dirty
+Dirty map creation successful!
+Now measuring the mad_std in the dirty map
+Standard deviation calculation successful! Result: 2.2 mJy/beam
+Now masking the cube at 3 sigma
+Masking successful!
+Now computing boolmask
+Boolmask computation successful!
+Now getting coordinates from original image
+Coordinates retrieved successfully!
+Now outputting the mask file
+Mask file output successful!
+Now calculating the eroded/dilated boolmask
+Eroded/dilated boolmask calculation successful!
+Now defining the eroded/dilated mask to export
+Now outputting the eroded/dilated mask
+Eroded/dilated mask output successful!
+Now renaming mask file for consistency
+Eroded/dilated mask file successfully renamed!
+Now beginning deep clean: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_146_spw51_reimaging_clean_2sigma_n50000_masked_3sigma_pbmask0p18
+Deep clean complete!
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/lib/py/lib/python3.6/site-packages/casa_formats_io/casa_dask.py:232: RuntimeWarning: divide by zero encountered in long_scalars
+  factors = [f for f in range(stacks[dim] + 1) if stacks[dim] % f == 0]
+WARNING: StokesWarning: Cube is a Stokes cube, returning spectral cube for I component [spectral_cube.io.core]
+data_41
+257
+45
+3
+casa_clean_ab_257_spw45_2sigma_reimaging.log
+--> CrashReporter initialized.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:21:01	WARN	SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C3839:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:25:00	WARN	task_tclean::SIImageStore::restore (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 2089)	Restoring with an empty model image. Only residuals will be processed to form the output restored image.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:30:21	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C3839:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:36:04	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C3839:P0] 
+....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:42:18	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C3839:P0] 
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-20 02:54:07	WARN	task_tclean::SIImageStore::getPSFGaussian (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 1916)	PSF is blank for[C3839:P0] 
+....10....20....30....40....50....60....70....80....90....100%
+optional configuration file config.py not found, continuing CASA startup without it
+[22;0t]0;IPython: scripts/bashUsing matplotlib backend: agg
+CASA 6.1.0.118 -- Common Astronomy Software Applications [6.1.0.118]
+Data path is: /blue/adamginsburg/abulatek/brick/symlinks/data_41/calibrated_final.ms
+Now creating dirty map: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_257_spw45_reimaging_dirty
+Dirty map creation successful!
+Now measuring the mad_std in the dirty map
+Standard deviation calculation successful! Result: 5.5 mJy/beam
+Now masking the cube at 3 sigma
+Masking successful!
+Now computing boolmask
+Boolmask computation successful!
+Now getting coordinates from original image
+Coordinates retrieved successfully!
+Now outputting the mask file
+Mask file output successful!
+Now calculating the eroded/dilated boolmask
+Eroded/dilated boolmask calculation successful!
+Now defining the eroded/dilated mask to export
+Now outputting the eroded/dilated mask
+Eroded/dilated mask output successful!
+Now renaming mask file for consistency
+Eroded/dilated mask file successfully renamed!
+Now beginning deep clean: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_257_spw45_reimaging_clean_2sigma_n50000_masked_3sigma_pbmask0p18
+Deep clean complete!
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/lib/py/lib/python3.6/site-packages/casa_formats_io/casa_dask.py:232: RuntimeWarning: divide by zero encountered in long_scalars
+  factors = [f for f in range(stacks[dim] + 1) if stacks[dim] % f == 0]
+WARNING: StokesWarning: Cube is a Stokes cube, returning spectral cube for I component [spectral_cube.io.core]

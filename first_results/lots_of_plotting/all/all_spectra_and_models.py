@@ -38,7 +38,7 @@ tkin = 151 # This needs to be changed if its value in the molfit files changes (
 Ntot = 5.0e+13 # This needs to be changed if its value in the molfit files changes (TODO: GRAB THIS FROM FITTING RESULTS)
 
 ## Set up some matplotlib settings
-SM_SIZE = 12
+SM_SIZE = 14
 MD_SIZE = 18
 LG_SIZE = 22
 plt.rc('font', size = MD_SIZE)          # Controls default text sizes
@@ -48,8 +48,9 @@ plt.rc('xtick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('ytick', labelsize = MD_SIZE)    # Fontsize of the tick labels
 plt.rc('legend', fontsize = SM_SIZE)    # Legend fontsize
 plt.rc('figure', titlesize = LG_SIZE)   # Fontsize of the figure title
+plt.rc('figure', facecolor = 'w')
 plt.rcParams.update({
-    "figure.facecolor":  'none',
+    "figure.facecolor":  'w',
     "axes.facecolor":    'w',
     "savefig.facecolor": 'none'
 })
@@ -183,7 +184,7 @@ def import_and_smooth_cube(freq_spw):
             cube = SpectralCube.read(basefn, use_dask = True)
             # Convert cube to a common beam
             cube_common_beam = cube.beams.common_beam(max_iter = 20, max_epsilon = 0.01)
-            smoothed_cube = cube.convolve_to(cube_common_beam) # Convert from VaryingResolution
+            smoothed_cube = cube.convolve_to(cube_common_beam) # Convert from VaryingResolution to regular
             smoothed_cube.write(basefn+".commonbeam.fits")
     else:
         log.info(f"Smoothing cube {basefn}")
@@ -201,13 +202,6 @@ def extract_spectrum(smoothed_cube):
 #     m0 = smoothed_cube.moment0() # Why are we doing this? I don't think we have to do this
     spectrum = smoothed_cube[:, y, x].to(u.K)
     return spectrum
-
-def mean_spectrum(smoothed_cube):
-    # Take the mean spectrum of the outflow cavity region
-    reg = regions.Regions.read('outflow_cavity_region.reg')
-    smoothed_scube = smoothed_cube.subcube_from_regions(reg)
-    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
-    return mean_spectrum
 
 def contsub_spectrum(spectrum):
     # Preliminary continuum subtraction
@@ -296,7 +290,7 @@ def plot_spectra(spectrum_contsub, modeldata_all, transenergies_all, MolfitsFile
     # plt.xlim(137.25, 137.50)
     plt.title(f"{freq_spw} data and model comparison (core), $T$ = {tkin:.1f} K, $\log_{{10}}(N_{{tot}})$ = {np.log10(Ntot):.2f}") # y = 0.92 # NOTE: TKIN AND NTOT MAY CHANGE WHEN WE FIT !
     plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.pdf", facecolor = 'w', edgecolor = 'w', bbox_inches = 'tight', overwrite = True)
-    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 200, bbox_inches = 'tight', overwrite = True)
+    plt.savefig(f"/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all/spectra_ID/{freq_spw}.png", dpi = 250, bbox_inches = 'tight', overwrite = True)
 
 if __name__ == "__main__":
     smoothed_cube = import_and_smooth_cube(freq_spw)

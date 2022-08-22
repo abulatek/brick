@@ -6,6 +6,8 @@ first_results/.ipynb_checkpoints
 first_results/lineID/.ipynb_checkpoints
 first_results/temperature_map/.ipynb_checkpoints
 first_results/diagnostic_plots
+xclass_stuff/.ipynb_checkpoints
+first_results/modeling/.ipynb_checkpoints
 
 *.pickle
 *.fz

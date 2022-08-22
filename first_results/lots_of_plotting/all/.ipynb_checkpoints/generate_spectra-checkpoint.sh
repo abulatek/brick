@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=plotting_spectra        # Job name
-#SBATCH --output plotting_spectra_%j.log   # Output and error log name
+#SBATCH --job-name=spectra_core            # Job name
+#SBATCH --output spectra_core_%j.log       # Output and error log name
 #SBATCH --mail-user=abulatek@ufl.edu       # Where to send mail
 #SBATCH --mail-type=END,FAIL               # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --nodes=1                          # Maximum number of nodes to be allocated

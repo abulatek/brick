@@ -1,0 +1,70 @@
+/blue/adamginsburg/abulatek/brick/scripts/bash
+c0709a-s13.ufhpc
+Thu Jul 28 19:42:22 EDT 2022
+data_41
+259
+47
+3
+casa_clean_ab_259_spw47_2sigma_reimaging_FOV.log
+--> CrashReporter initialized.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2022-07-28 23:56:45	WARN	task_tclean::SIImageStore::restore (file casa-source/code/synthesis/ImagerObjects/SIImageStore.cc, line 2089)	Restoring with an empty model image. Only residuals will be processed to form the output restored image.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+....10....20....30....40....50....60....70....80....90....100%
+optional configuration file config.py not found, continuing CASA startup without it
+[22;0t]0;IPython: scripts/bashUsing matplotlib backend: agg
+Creating a new telemetry file
+CASA 6.1.0.118 -- Common Astronomy Software Applications [6.1.0.118]
+Data path is: /blue/adamginsburg/abulatek/brick/symlinks/data_41/calibrated_final.ms
+Now creating dirty map: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_259_spw47_reimaging_FOV_dirty
+Dirty map creation successful!
+Now measuring the mad_std in the dirty map
+Standard deviation calculation successful! Result: 4.9 mJy/beam
+Now masking the cube at 3 sigma
+Masking successful!
+Now computing boolmask
+Boolmask computation successful!
+Now getting coordinates from original image
+Coordinates retrieved successfully!
+Now outputting the mask file
+Mask file output successful!
+Now calculating the eroded/dilated boolmask
+Eroded/dilated boolmask calculation successful!
+Now defining the eroded/dilated mask to export
+Now outputting the eroded/dilated mask
+Eroded/dilated mask output successful!
+Now renaming mask file for consistency
+Eroded/dilated mask file successfully renamed!
+Now beginning deep clean: /blue/adamginsburg/abulatek/brick/symlinks/imaging_results/source_ab_259_spw47_reimaging_FOV_clean_2sigma_n50000_masked_3sigma_pbmask0p18
+Deep clean complete!
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
+/blue/adamginsburg/adamginsburg/casa/casa-6.1.0-118/lib/py/lib/python3.6/site-packages/casa_formats_io/casa_dask.py:232: RuntimeWarning: divide by zero encountered in long_scalars
+  factors = [f for f in range(stacks[dim] + 1) if stacks[dim] % f == 0]
+WARNING: StokesWarning: Cube is a Stokes cube, returning spectral cube for I component [spectral_cube.io.core]
