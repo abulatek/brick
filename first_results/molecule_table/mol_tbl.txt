@@ -1,0 +1,3 @@
+# molecule_name, T_rot_K, N_tot_cm-2, v_cen_kms, v_disp_kms
+
+CH3CN, 150., 1.1e+14, 40.*u.km/u.s, 1.5*u.km/u.s
