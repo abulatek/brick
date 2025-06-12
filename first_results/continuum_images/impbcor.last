@@ -1,0 +1,13 @@
+imagename = 'brickmaser_cont_data_61_mtmfs_incl_adjparam.image.tt0'
+pbimage   = 'brickmaser_cont_data_61_mtmfs_incl_adjparam.pb.tt0'
+outfile   = 'brickmaser_cont_data_61_mtmfs_incl_adjparam.image.tt0.pbcor'
+box       = ''
+region    = ''
+chans     = ''
+stokes    = ''
+mask      = ''
+mode      = 'divide'
+cutoff    = -1.0
+overwrite = False
+stretch   = False
+#impbcor( imagename='brickmaser_cont_data_61_mtmfs_incl_adjparam.image.tt0',pbimage='brickmaser_cont_data_61_mtmfs_incl_adjparam.pb.tt0',outfile='brickmaser_cont_data_61_mtmfs_incl_adjparam.image.tt0.pbcor',box='',region='',chans='',stokes='',mask='',mode='divide',cutoff=-1.0,overwrite=False,stretch=False )

@@ -1,0 +1,2 @@
+tablenames = 'brickmaser_cont_data_41_mtmfs_incl_adjparam_split.sumwt.tt2'
+#rmtables( tablenames='brickmaser_cont_data_41_mtmfs_incl_adjparam_split.sumwt.tt2' )
