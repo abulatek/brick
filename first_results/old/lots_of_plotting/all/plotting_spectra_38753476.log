@@ -1,0 +1,705 @@
+/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all
+c0712a-s25.ufhpc
+Wed Jun  1 15:15:28 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+89_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+91_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+93_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+95_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+97_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+98_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+99_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+102_spw23
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+102_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+104_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+103_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+106_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+107_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+110_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+111_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+112_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+114_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+127_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+129_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+130_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+132_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+134_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+135_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+137_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+137_spw69
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+139_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+140_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+142_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+144_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+146_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+147_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+149_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+142_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+152_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+244_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+245_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+247_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+249_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+250_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+252_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+254_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+255_spw87
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+257_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+259_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+259_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+261_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+263_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+264_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+266_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+268_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+270_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+271_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False
+273_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 236, in <module>
+    smoothed_cube = import_and_smooth_cube(freq_spw)
+  File "all_spectra_and_models.py", line 133, in import_and_smooth_cube
+    cube = SpectralCube.read(results+'source_ab_'+freq_spw+'_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image', use_dask = False) # True
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/core.py", line 118, in __call__
+    return registry.read(BaseSpectralCube, filename, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/anaconda/lib/python3.7/site-packages/astropy/io/registry.py", line 527, in read
+    data = reader(*args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/io/casa_image.py", line 53, in load_casa_image
+    raise ValueError("Loading CASA datasets is not possible with use_dask=False")
+ValueError: Loading CASA datasets is not possible with use_dask=False

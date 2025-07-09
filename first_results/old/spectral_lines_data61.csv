@@ -1,0 +1,10 @@
+Dataset,freq_spw,Spectrum type,Species,QNs,Frequency (GHz),Velocity (km/s),Comment,Additional comment
+data61,112_spw27,max,CNv=0,"N=1-0,J=1/2-1/2,F=1/2-3/2",113.1441573,43.7120706,in Belloche,
+data61,112_spw27,max,D2CS,"4(0,4)-3(0,3)",113.484714,38.21504644,"probably not, maybe more CN?",
+data61,112_spw27,mean,C17O,"J=1-0,F=3/2-5/2",112.358777,15.78811872,in Belloche,
+data61,112_spw27,mean,(CH3)2COv=0,"11(0,11)-10(1,10)EE",112.373548,55.19242045,"in Belloche, but C17O is stronger",
+data61,112_spw27,mean,CNv=0,"N=1-0,J=1/2-1/2,F=1/2-1/2",113.123337,33.10585688,in Belloche,
+data61,112_spw27,mean,D2CS,"4(0,4)-3(0,3)",113.484714,69.07011079,"probably not, maybe more CN?",
+data61,114_spw29,max,COv=0,1-0,115.2712018,59.02759464,in Belloche,
+data61,114_spw29,mean,COv=0,1-0,115.2712018,23.55799447,in Belloche,
+data61,114_spw29,mean,"NS,v=0","J=5/2-3/2,&Omega;=1/2,F=7/2-5/2,l=f",115.556253,24.24299365,in Belloche,

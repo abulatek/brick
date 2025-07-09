@@ -1,0 +1,9 @@
+Dataset,freq_spw,Spectrum type,Species,QNs,Frequency (GHz),Observed frequency (GHz),Velocity (km/s),Comment,Spectrum
+data_61,112_spw27,max,CNv=0,"N=1-0,J=1/2-1/2,F=1/2-3/2",113.1441573,113.1276714,44,In Belloche. Overlap with prev spw.,
+data_61,112_spw27,max,CNv=0,"N=1-0,J=3/2-1/2,F=3/2-1/2",113.4881202,113.4703404,47,"In Belloche. Could also be D2CS 4(0,4)-3(0,3) at 113.484722 (38 km/s).",
+data_61,112_spw27,mean,C17O,"J=1-0,F=3/2-5/2",112.358777,112.3528639,16,In Belloche. Overlap with prev spw.,
+data_61,112_spw27,mean,CNv=0,"N=1-0,J=1/2-1/2,F=1/2-1/2",113.123337,113.1108535,33,In Belloche.,
+data_61,112_spw27,mean,CNv=0,"N=1-0,J=3/2-1/2,F=3/2-1/2",113.4881202,113.4703404,47,"In Belloche. Could also be D2CS 4(0,4)-3(0,3) at 113.484722 (38 km/s).",
+data_61,114_spw29,max,COv=0,1-0,115.2712018,115.2485212,59,In Belloche.,
+data_61,114_spw29,mean,COv=0,1-0,115.2712018,115.2621499,24,In Belloche.,
+data_61,114_spw29,mean,"NS,v=0","J=5/2-3/2,&Omega;=1/2,F=7/2-5/2,l=f",115.556253,115.5469149,24,In Belloche.,

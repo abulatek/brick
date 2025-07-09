@@ -1,0 +1,7 @@
+%%MinNumTransitionsSQL = 1
+%%MaxNumTransitionsSQL = 0
+%%MaxElowSQL = 1000000.0
+%%MingASQL = 0.0
+%%OrderTransSQL = 1
+C2H5OH;v=0;#1	   1
+    n        0.3     1.0         0.42    y        90.00     180.00         120.0    y    1.00e+14    1.00e+18       1.0e+16    y        4.0       6.0           5.0    n      -1.0       1.00           0.0   c

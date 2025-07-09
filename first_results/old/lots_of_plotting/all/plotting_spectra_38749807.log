@@ -1,0 +1,273 @@
+/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all
+c0700a-s20.ufhpc
+Wed Jun  1 14:02:31 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+89_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+91_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+93_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+95_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+97_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+98_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+99_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+102_spw23
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+102_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+104_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+103_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+106_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+107_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+110_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+111_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+112_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+114_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+127_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+129_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+130_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+132_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+134_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+135_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+137_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+137_spw69
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+139_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+140_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+142_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+144_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+146_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+147_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+149_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+142_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+152_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+244_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+245_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+247_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+249_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+250_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+252_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+254_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+255_spw87
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+257_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+259_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+259_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+261_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+263_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+264_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+266_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+268_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+270_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+271_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'
+273_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models.py", line 6, in <module>
+    import dask
+ModuleNotFoundError: No module named 'dask'

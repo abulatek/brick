@@ -1,6 +1,6 @@
 ### This script was used to extract spectra from continuum-subtracted smoothed cubes; 
 ### see average_spectra.ipynb for a script that was used to extract spectra from NON-contsub cubes.
-# sbatch --job-name=extract_contsub_spectra --output=extract_contsub_spectra-%j.log --account=astronomy-dept --qos=astronomy-dept-b --ntasks=8 --mail-type=ALL --mail-user=abulatek@ufl.edu --nodes=1 --mem=24gb --time=96:00:00 --wrap "/blue/adamginsburg/abulatek/conda/envs/py312/bin/python3 average_spectra.py"
+# sbatch --job-name=extract_contsub_spectra --output=extract_contsub_spectra-%j.log --account=astronomy-dept --qos=astronomy-dept-b --ntasks=8 --mail-type=END,FAIL --mail-user=abulatek@ufl.edu --nodes=1 --mem=24gb --time=96:00:00 --wrap "/blue/adamginsburg/abulatek/conda/envs/py312/bin/python3 /blue/adamginsburg/abulatek/brick/first_results/reduction/5_average_spectra.py"
 
 # Package imports
 from astropy import coordinates, units as u
@@ -17,6 +17,7 @@ from mol_model import fetch_cubes, model_and_plot, list_mol_tags, get_cubes_from
 results = '/blue/adamginsburg/abulatek/brick/symlinks/imaging_results/contsub_smoothed_cubes_K_w_pbcor/'
 avg_spectra_core_loc = results+'avg_spectra_core/'
 avg_spectra_frown_loc = results+'avg_spectra_frown/'
+diffuse_fn = '/blue/adamginsburg/abulatek/brick/first_results/reduction/diffuse_regions.fits'
 
 # Get list of all cubes
 import glob
@@ -48,10 +49,10 @@ for molcube in cubes_inorder:
 # Save spectra for central source coordinate
 for spectrum in spectra:
     fn = f"spectrum_{np.min(spectrum.spectral_axis).value}_{np.max(spectrum.spectral_axis).value}.fits"
-    spectrum.write(avg_spectra_core_loc+fn, format='fits')
+    spectrum.write(avg_spectra_core_loc+fn, format='fits', overwrite=True)
     
 # Get subcubes based on mask
-cubes_inorder_masked = get_cubes_from_mask("diffuse_regions.fits", 1, cubes_inorder, plot_region=False)
+cubes_inorder_masked = get_cubes_from_mask(diffuse_fn, 1, cubes_inorder, plot_region=False)
 
 # Get all spectra in order for frown region
 spectra_reg = []
@@ -65,4 +66,4 @@ for molcube in cubes_inorder_masked:
 # Save spectra for frown region
 for spectrum in spectra_reg:
     fn = f"spectrum_{np.min(spectrum.spectral_axis).value}_{np.max(spectrum.spectral_axis).value}.fits"
-    spectrum.write(avg_spectra_frown_loc+fn, format='fits')
+    spectrum.write(avg_spectra_frown_loc+fn, format='fits', overwrite=True)

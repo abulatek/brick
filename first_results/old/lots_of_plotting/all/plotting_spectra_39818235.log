@@ -1,0 +1,705 @@
+/blue/adamginsburg/abulatek/brick/first_results/lots_of_plotting/all
+c0713a-s6.ufhpc
+Tue Jun 14 14:19:34 EDT 2022
+87_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+89_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+91_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+93_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+95_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+97_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+98_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+99_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+102_spw23
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+102_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+104_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+103_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+106_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+107_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+110_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+111_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+112_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+114_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+127_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+129_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+130_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+132_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+134_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+135_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+137_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+137_spw69
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+139_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+140_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+142_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+144_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+146_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+147_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+149_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+142_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+152_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+244_spw65
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+245_spw67
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+247_spw105
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+249_spw107
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+250_spw25
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+252_spw27
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+254_spw85
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+255_spw87
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+257_spw45
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+259_spw47
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+259_spw71
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+261_spw109
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+263_spw111
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+264_spw29
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+266_spw31
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+268_spw89
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+270_spw91
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+271_spw49
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
+273_spw51
+Traceback (most recent call last):
+  File "all_spectra_and_models_cavityedge.py", line 303, in <module>
+    spectrum = mean_spectrum(smoothed_cube)
+  File "all_spectra_and_models_cavityedge.py", line 209, in mean_spectrum
+    mean_spectrum = smoothed_scube.mean(axis = (1, 2), how='slice', progressbar=True)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 116, in wrapper
+    out = function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 67, in wrapper
+    return function(self, *args, **kwargs)
+  File "/blue/adamginsburg/abulatek/spectral-cube/spectral_cube/dask_spectral_cube.py", line 637, in mean
+    return self._compute(da.nanmean(self._get_filled_data(fill=np.nan), axis=axis, **kwargs))
+TypeError: nanmean() got an unexpected keyword argument 'how'
