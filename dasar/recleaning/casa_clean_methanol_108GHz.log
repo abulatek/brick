@@ -1,0 +1,128 @@
+2025-06-22 22:38:31	INFO	::casa	
+2025-06-22 22:38:32	INFO	::casa	
+2025-06-22 22:38:32	INFO	::casa	
+2025-06-22 22:38:32	INFO	::casa	
+2025-06-22 22:38:35	INFO	::casa	Python version 3.8.10
+2025-06-22 22:38:35	INFO	::casa	CASA Version CASALITH 6.6.0.2
+2025-06-22 22:38:35	INFO	::casa	
+2025-06-22 22:38:35	INFO	::casa	Telemetry log file: /home/abulatek/.casa/casastats-6.6.0.2-bc97f1d4127fa-20250622-223835.log
+2025-06-22 22:38:35	INFO	::casa	Checking telemetry submission interval
+2025-06-22 22:38:35	INFO	::casa	Creating a new telemetry time stamp file./home/abulatek/.casa/telemetry-bc97f1d4127fa.stamp
+2025-06-22 22:38:35	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2025-06-22 22:38:35	INFO	::casa	Next telemetry data submission in: 6 days, 23:59:59.999259
+2025-06-22 22:38:37	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2025-06-22 22:38:37	INFO	::casa	
+2025-06-22 22:38:37	INFO	::casa	Checking Measures tables in data repository sub-directory /blue/adamginsburg/adamginsburg/casa/casa-6.6.0-2-py3.8.el8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2025-06-22 22:38:37	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2023/06/23/15:00, 2023/05/24/00:00:00
+2025-06-22 22:38:37	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2023/06/23/15:00, 2023/05/24/00:00:00
+2025-06-22 22:38:37	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2023/07/02/15:00, 2023/09/30/00:00:00
+2025-06-22 22:38:37	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2023/06/07/15:00, 2017/01/01/00:00:00
+2025-06-22 22:38:37	INFO	tclean::::casa	##########################################
+2025-06-22 22:38:37	INFO	tclean::::casa	##### Begin Task: tclean             #####
+2025-06-22 22:38:37	INFO	tclean::::casa	tclean( vis='/orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/', selectdata=True, field='BrickMaser', spw='31', timerange='', uvrange='', antenna='', scan='', observation='', intent='', datacolumn='corrected', imagename='brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4', imsize=[512, 512], cell=['0.2arcsec'], phasecenter='', stokes='I', projection='SIN', startmodel='', specmode='cube', reffreq='', nchan=48, start='108.862921 GHz', width='', outframe='', veltype='radio', restfreq=[], interpolation='linear', perchanweightdensity=True, gridder='standard', facets=1, psfphasecenter='', wprojplanes=1, vptable='', mosweight=True, aterm=True, psterm=False, wbawp=True, conjbeams=False, cfcache='', usepointing=False, computepastep=360.0, rotatepastep=360.0, pointingoffsetsigdev=[], pblimit=0.2, normtype='flatnoise', deconvolver='multiscale', scales=[0, 3, 9, 27], nterms=2, smallscalebias=0.0, fusedthreshold=0.0, largestscale=-1, restoration=True, restoringbeam=[], pbcor=False, outlierfile='', weighting='natural', robust=0.5, noise='1.0Jy', npixels=0, uvtaper=[], niter=1000000, gain=0.1, threshold='1mJy', nsigma=0.0, cycleniter=-1, cyclefactor=4.0, minpsffraction=0.05, maxpsffraction=0.8, interactive=False, fullsummary=False, nmajor=-1, usemask='user', mask='', pbmask=0.18, sidelobethreshold=3.0, noisethreshold=5.0, lownoisethreshold=1.5, negativethreshold=0.0, smoothfactor=1.0, minbeamfrac=0.3, cutthreshold=0.01, growiterations=75, dogrowprune=True, minpercentchange=-1.0, verbose=False, fastnoise=True, restart=True, savemodel='none', calcres=True, calcpsf=True, psfcutoff=0.35, parallel=False )
+2025-06-22 22:38:37	INFO	tclean::::casa	Verifying Input Parameters
+2025-06-22 22:38:40	INFO	SynthesisImagerVi2::selectData 	MS : /orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/ | Selecting on fields : BrickMaser | Selecting on spw :31 | [Opened in readonly mode]
+2025-06-22 22:38:41	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 424410
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)	Leap second table TAI_UTC seems out-of-date.
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	Until the table is updated (see the CASA documentation or your system admin),
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	times and coordinates derived from UTC could be wrong by 1s or more.
+2025-06-22 22:38:41	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] : 
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs	 phaseCenter='Direction: [-0.0528693, -0.87551, -0.480299]'  Channels equidistant in freq
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs+	 Central frequency (in output frame) = 1.08886e+11 Hz
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs+	 Width of central channel (in output frame) = 976434 Hz
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs+	 Number of channels = 48
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs+	 Total width of SPW (in output frame) = 4.68688e+07 Hz
+2025-06-22 22:38:42	INFO	MSTransformRegridder::calcChanFreqs+	 Lower edge = 1.08862e+11 Hz, upper edge = 1.08909e+11 Hz
+2025-06-22 22:38:42	INFO	SynthesisImagerVi2::defineImage 	Impars : start 108.862921 GHz
+2025-06-22 22:38:42	INFO	SynthesisImagerVi2::defineImage 	Shape : [512, 512, 1, 48]Spectral : [1.08863e+11] at [0] with increment [976434]
+2025-06-22 22:38:42	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] with ftmachine : gridft
+2025-06-22 22:38:42	INFO	SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.6592 GB. Available mem.: 51.2 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2025-06-22 22:38:42	INFO	tclean::::casa	CFCache already exists
+2025-06-22 22:38:42	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Natural weighting
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisDeconvolver::setupDeconvolution 	Set Deconvolution Options for [brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] : multiscale
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.6592 GB. Available mem.: 51.2 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::selectData 	MS : /orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/ | Selecting on fields : BrickMaser | Selecting on spw :31 | [Opened in readonly mode]
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::selectData 	  NRows selected : 424410
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::weight() 	Set imaging weights : Natural weighting
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImager::tuneSelectData 	Tuning frequency data selection to match image spectral coordinates
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::selectData 	MS : /orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/ | Selecting on fields : BrickMaser | Selecting on spw :31 | [Opened in readonly mode]
+2025-06-22 22:38:42	INFO	task_tclean::SynthesisImagerVi2::selectData 	  NRows selected : 424410
+2025-06-22 22:38:43	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2025-06-22 22:38:48	INFO	task_tclean::SynthesisImagerVi2::makePrimaryBeam 	vi2 : Evaluating Primary Beam model onto image grid(s)
+2025-06-22 22:38:48	INFO	task_tclean::SIImageStore::calcSensitivity 	[brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] Theoretical sensitivity (Jy/bm):c0:0.000602109 c1:0.000602109 c2:0.000602109 c3:0.000602109 c4:0.000602109 c5:0.000602109 c6:0.000602109 c7:0.000602109 c8:0.000602109 c9:0.000602109 c10:0.000602109 c11:0.000602109 c12:0.000602109 c13:0.000602109 c14:0.000602109 c15:0.000602109 c16:0.000602109 c17:0.000602109 c18:0.000602109 c19:0.000602109 c20:0.000602109 c21:0.000602109 c22:0.000602109 c23:0.000602109 c24:0.000602109 c25:0.000602109 c26:0.000602109 c27:0.000602109 c28:0.000602109 c29:0.000602109 c30:0.000602109 c31:0.000602109 c32:0.000602109 c33:0.000602109 c34:0.000602109 c35:0.000602109 c36:0.000602109 c37:0.000602109 c38:0.000602109 c39:0.000602109 c40:0.000602109 c41:0.000602109 c42:0.000602109 c43:0.000602109 c44:0.000602109 c45:0.000602109 c46:0.000602109 c47:0.000602109 
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::getPSFGaussian 	Time to fit Gaussian to PSF 0.179866
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::printBeamSet 	Restoring Beams 
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::printBeamSet +	Pol   Type Chan         Freq     Vel
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::printBeamSet +	  I    Max    0 1.088629e+11 -1349.71    1.3701 arcsec x    0.9978 arcsec pa=-67.6941 deg
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::printBeamSet +	  I    Min   47 1.089088e+11 -1476.66    1.3695 arcsec x    0.9974 arcsec pa=-67.6934 deg
+2025-06-22 22:38:49	INFO	task_tclean::SIImageStore::printBeamSet +	  I Median   23 1.088854e+11 -1411.84    1.3698 arcsec x    0.9976 arcsec pa=-67.6938 deg
+2025-06-22 22:38:49	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 1 -------------------------------------
+2025-06-22 22:38:49	INFO	task_tclean::SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.6592 GB. Available mem.: 51.2 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2025-06-22 22:38:49	INFO	task_tclean::SynthesisImagerVi2::selectData 	MS : /orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/ | Selecting on fields : BrickMaser | Selecting on spw :31 | [Opened in readonly mode]
+2025-06-22 22:38:49	INFO	task_tclean::SynthesisImagerVi2::selectData 	  NRows selected : 424410
+2025-06-22 22:38:50	INFO	task_tclean::SynthesisImagerVi2::weight() 	Set imaging weights : Natural weighting
+2025-06-22 22:38:50	INFO	task_tclean::SynthesisImager::tuneSelectData 	Tuning frequency data selection to match image spectral coordinates
+2025-06-22 22:38:50	INFO	task_tclean::SynthesisImagerVi2::selectData 	MS : /orange/adamginsburg/brick_alma_linesurvey/2019.1.00092.S/science_goal.uid___A001_X1465_X3a59/group.uid___A001_X1465_X3a5a/member.uid___A001_X1465_X3a5b/calibrated/calibrated_final.ms/ | Selecting on fields : BrickMaser | Selecting on spw :31 | [Opened in readonly mode]
+2025-06-22 22:38:50	INFO	task_tclean::SynthesisImagerVi2::selectData 	  NRows selected : 424410
+2025-06-22 22:38:50	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 1 -------------------------------------
+2025-06-22 22:39:06	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00100441, over full image : 0.00100441
+2025-06-22 22:39:06	INFO	tclean::::casa	Reached global stopping criterion : threshold
+2025-06-22 22:39:06	INFO	SynthesisDeconvolver::setupMask 	[brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] Initializing new mask to 1.0 for the full image
+2025-06-22 22:39:06	INFO	SynthesisDeconvolver::setupMask 	[brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] Number of pixels in the clean mask : 1.25829e+07 out of a total of 1.25829e+07 pixels. [ 100 % ]
+2025-06-22 22:39:06	INFO	SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00100441, over full image : 0.00100441
+2025-06-22 22:39:06	INFO	tclean::::casa	Reached global stopping criterion : threshold
+2025-06-22 22:39:06	INFO	tclean::::casa	getSummary call: fullsummary=False
+2025-06-22 22:39:06	INFO	SDAlgorithmBase::restore 	[brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4] : Restoring model image.
+2025-06-22 22:39:06	INFO	SIImageStore::restore 	Beam for chan : 0 : 1.37009 arcsec, 0.997806 arcsec, -67.6941 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 1 : 1.37008 arcsec, 0.997798 arcsec, -67.6941 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 2 : 1.37006 arcsec, 0.99779 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 3 : 1.37005 arcsec, 0.997781 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 4 : 1.37004 arcsec, 0.997773 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 5 : 1.37003 arcsec, 0.997765 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 6 : 1.37002 arcsec, 0.997757 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 7 : 1.37001 arcsec, 0.997749 arcsec, -67.694 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 8 : 1.36999 arcsec, 0.99774 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 9 : 1.36998 arcsec, 0.997732 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 10 : 1.36997 arcsec, 0.997724 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 11 : 1.36996 arcsec, 0.997716 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 12 : 1.36995 arcsec, 0.997708 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 13 : 1.36994 arcsec, 0.997699 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 14 : 1.36992 arcsec, 0.997691 arcsec, -67.6939 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 15 : 1.36991 arcsec, 0.997683 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 16 : 1.3699 arcsec, 0.997675 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 17 : 1.36989 arcsec, 0.997666 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 18 : 1.36988 arcsec, 0.997658 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 19 : 1.36986 arcsec, 0.99765 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 20 : 1.36985 arcsec, 0.997642 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 21 : 1.36984 arcsec, 0.997634 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 22 : 1.36983 arcsec, 0.997626 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 23 : 1.36982 arcsec, 0.997617 arcsec, -67.6938 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 24 : 1.36981 arcsec, 0.997609 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 25 : 1.36979 arcsec, 0.997601 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 26 : 1.36978 arcsec, 0.997593 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 27 : 1.36977 arcsec, 0.997585 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 28 : 1.36976 arcsec, 0.997576 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 29 : 1.36975 arcsec, 0.997568 arcsec, -67.6937 deg
+2025-06-22 22:39:07	INFO	SIImageStore::restore 	Beam for chan : 30 : 1.36974 arcsec, 0.99756 arcsec, -67.6937 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 31 : 1.36972 arcsec, 0.997552 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 32 : 1.36971 arcsec, 0.997543 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 33 : 1.3697 arcsec, 0.997535 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 34 : 1.36969 arcsec, 0.997527 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 35 : 1.36968 arcsec, 0.997519 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 36 : 1.36967 arcsec, 0.997511 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 37 : 1.36965 arcsec, 0.997503 arcsec, -67.6936 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 38 : 1.36964 arcsec, 0.997494 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 39 : 1.36963 arcsec, 0.997486 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 40 : 1.36962 arcsec, 0.997478 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 41 : 1.36961 arcsec, 0.99747 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 42 : 1.3696 arcsec, 0.997462 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 43 : 1.36958 arcsec, 0.997453 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 44 : 1.36957 arcsec, 0.997445 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 45 : 1.36956 arcsec, 0.997437 arcsec, -67.6935 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 46 : 1.36955 arcsec, 0.997429 arcsec, -67.6934 deg
+2025-06-22 22:39:08	INFO	SIImageStore::restore 	Beam for chan : 47 : 1.36954 arcsec, 0.997421 arcsec, -67.6934 deg
+2025-06-22 22:39:08	INFO	tclean::::casa	Searching for images with prefix 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4'... Found these, writing history into them: ['brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.model', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.image', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.residual', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.psf', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.mask', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.pb', 'brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.sumwt']
+2025-06-22 22:39:08	INFO	tclean::::casa	Task tclean complete. Start time: 2025-06-22 18:38:37.293270 End time: 2025-06-22 18:39:08.221613
+2025-06-22 22:39:08	INFO	tclean::::casa	##### End Task: tclean               #####
+2025-06-22 22:39:08	INFO	tclean::::casa	##########################################

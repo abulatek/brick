@@ -1,0 +1,19 @@
+/blue/adamginsburg/abulatek/brick/dasar/recleaning
+c0709a-s6.ufhpc
+Sun Jun 22 06:38:15 PM EDT 2025
+casa_clean_methanol_108GHz.log
+--> CrashReporter initialized.
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)	Leap second table TAI_UTC seems out-of-date.
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	Until the table is updated (see the CASA documentation or your system admin),
+2025-06-22 22:38:41	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	times and coordinates derived from UTC could be wrong by 1s or more.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+optional configuration file config.py not found, continuing CASA startup without it
+
+Using matplotlib backend: TkAgg
+Creating a new telemetry file
+CASA 6.6.0.2 -- Common Astronomy Software Applications [6.6.0.2]
+Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+You can disable telemetry by adding the following line to the config.py file in your rcdir (e.g. ~/.casa/config.py):
+telemetry_enabled = False
